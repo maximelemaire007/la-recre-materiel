@@ -5,7 +5,7 @@ Dossier Canva : https://www.canva.com/folder/FAHah0tP3XI
 | Design | Pages | Lien d'édition |
 |---|---|---|
 | Texte informatif « Noël, une fête aux mille traditions » | 4 | https://www.canva.com/d/ZrD2rC-VbFImFaV |
-| Questionnaire et grille d'évaluation | 5 | https://www.canva.com/d/1YU8VZoIV8yzuUs |
+| Questionnaire et grille d'évaluation | 6 | https://www.canva.com/d/1YU8VZoIV8yzuUs |
 | Corrigé | 4 | https://www.canva.com/d/0xh-u4k2xO_FBNs |
 | Aperçu boutique 1 (texte et questionnaire) | 1 | https://www.canva.com/d/phxkGfJmebgySM9 |
 | Aperçu boutique 2 (pondération et grille) | 1 | https://www.canva.com/d/zPzhHGqp2YVqbKM |

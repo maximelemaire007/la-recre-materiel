@@ -21,14 +21,15 @@
 
 Mise en forme (retouches de la créatrice, page 1) : texte à 24 px, paragraphes sans pastilles numérotées, intertitres agrandis, titre sur deux lignes.
 
-**Document 2 : le questionnaire (4 pages) et la grille (1 page)**
-1. Page 1 : en-tête (nom, date), puis critère 1 (Comprendre), questions 1 à 4.
-2. Page 2 : critère 1 (suite), questions 5 à 7.
+**Document 2 : le questionnaire (5 pages) et la grille (1 page)**
+1. Page 1 : en-tête (nom, date), puis critère 1 (Comprendre), questions 1 à 5.
+2. Page 2 : critère 1 (suite), questions 6 et 7.
 3. Page 3 : critère 2 (Interpréter), questions 8 à 10.
-4. Page 4 : critère 3 (Réagir), question 11, puis critère 4 (Apprécier), question 12.
-5. Page 5 : la grille d'évaluation. Une carte par critère, avec les cotes A à E et les descripteurs, puis le total des points et la conversion en cote.
+4. Page 4 : critère 3 (Réagir), question 11.
+5. Page 5 : critère 4 (Apprécier), question 12.
+6. Page 6 : la grille d'évaluation. Une carte par critère, avec les cotes A à E et les descripteurs, puis le total des points et la conversion en cote.
 
-La pondération est indiquée à côté de chaque question, par exemple « _____ / 2 ».
+La pondération est indiquée à côté de chaque question, par exemple « / 2 ».
 
 **Document 3 : le corrigé (4 pages).** Il reprend la mise en page du questionnaire : chaque question est suivie d'un encadré gris pâle avec la réponse attendue, les réponses acceptées ou les pistes de correction.
 
@@ -158,4 +159,4 @@ Cotes suggérées pour la conversion des points :
 - **Matière :** Français.
 - **Type :** Évaluation.
 - **Étiquettes :** `2e-cycle`, `lecture`, `noel`, `nouveau`.
-- **Nombre de pages :** 13 (texte 4, questionnaire 4, grille 1, corrigé 4). La fiche complète est dans `fiche-produit.md`.
+- **Nombre de pages :** 14 (texte 4, questionnaire 5, grille 1, corrigé 4). La fiche complète est dans `fiche-produit.md`.
