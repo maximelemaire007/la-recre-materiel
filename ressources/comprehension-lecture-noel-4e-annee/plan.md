@@ -10,16 +10,16 @@
   2. Interprétation plausible d'un texte (interpréter) ;
   3. Justification pertinente des réactions à un texte (réagir) ;
   4. Jugement critique sur des textes (apprécier).
-- **Format :** Lettre (8,5 × 11 po), portrait, texte noir sur fond blanc, impression en noir et blanc (aucun aplat foncé ni fond pastel). On garde le style La Récré : onglet de titre, cartes à contour fin, pastilles numérotées au trait, petit logo en bas à droite, polices du kit.
+- **Format :** Lettre (8,5 × 11 po), portrait, texte noir sur fond blanc, impression en noir et blanc (aucun aplat foncé ni fond pastel). On garde le style La Récré : onglet de titre, cartes à contour fin, petit logo en bas à droite, polices du kit.
 
 ## Les pages
 
-**Document 1 : le texte (3 pages, recto verso)**
+**Document 1 : le texte (4 pages, recto verso)**
 1. Page 1 : grand titre, sous-titre manuscrit, introduction et sections 1 et 2, avec une illustration.
 2. Page 2 : sections 3 et 4, encadré « Le savais-tu? » et une illustration.
 3. Page 3 : section 5 et conclusion, avec une illustration.
 
-Les paragraphes sont numérotés (①, ②, …) pour que les élèves puissent s'y référer dans leurs réponses.
+Mise en forme (retouches de la créatrice, page 1) : texte à 24 px, paragraphes sans pastilles numérotées, intertitres agrandis, titre sur deux lignes.
 
 **Document 2 : le questionnaire (4 pages) et la grille (1 page)**
 1. Page 1 : en-tête (nom, date), puis critère 1 (Comprendre), questions 1 à 4.
@@ -114,7 +114,7 @@ Les illustrations sont des dessins au trait, à colorier, qui s'impriment bien :
 
 ### Critère 4 : Apprécier (*Jugement critique*) — 5 points
 
-12. **Est-ce que** la façon dont le texte est organisé t'a aidé à bien le comprendre? Donne ton opinion et appuie-la sur deux éléments du texte (le titre, les sous-titres, les paragraphes numérotés, les images, l'encadré « Le savais-tu? »…). *(5 points)*
+12. **Est-ce que** la façon dont le texte est organisé t'a aidé à bien le comprendre? Donne ton opinion et appuie-la sur deux éléments du texte (le titre, les sous-titres, les paragraphes, les images, l'encadré « Le savais-tu? »…). *(5 points)*
 
 **Total : 34 points**
 
@@ -158,4 +158,4 @@ Cotes suggérées pour la conversion des points :
 - **Matière :** Français.
 - **Type :** Évaluation.
 - **Étiquettes :** `2e-cycle`, `lecture`, `noel`, `nouveau`.
-- **Nombre de pages :** 12 (texte 3, questionnaire 4, grille 1, corrigé 4). La fiche complète est dans `fiche-produit.md`.
+- **Nombre de pages :** 13 (texte 4, questionnaire 4, grille 1, corrigé 4). La fiche complète est dans `fiche-produit.md`.
