@@ -21,13 +21,13 @@
 
 Mise en forme (retouches de la créatrice, page 1) : texte à 24 px, paragraphes sans pastilles numérotées, intertitres agrandis, titre sur deux lignes.
 
-**Document 2 : le questionnaire (5 pages) et la grille (1 page)**
-1. Page 1 : en-tête (nom, date), puis critère 1 (Comprendre), questions 1 à 5.
-2. Page 2 : critère 1 (suite), questions 6 et 7.
-3. Page 3 : critère 2 (Interpréter), questions 8 à 10.
-4. Page 4 : critère 3 (Réagir), question 11.
-5. Page 5 : critère 4 (Apprécier), question 12.
-6. Page 6 : la grille d'évaluation. Une carte par critère, avec les cotes A à E et les descripteurs, puis le total des points et la conversion en cote.
+**Document 2 : le questionnaire et la grille (4 pages, version retouchée par la créatrice)**
+1. Page 1 : en-tête (nom, date), critère 1, questions 1 à 5.
+2. Page 2 : critère 1 (suite), questions 6 et 7, puis critère 2, question 8.
+3. Page 3 : critère 2 (suite), questions 9 et 10, puis critère 3, question 11.
+4. Page 4 : critère 4, question 12, puis la grille d'évaluation en tableau (critères, questions, points, appréciation globale sur 27) et la signature du parent.
+
+Pondération finale : critère 1 = 13 (Q1 à Q7), critère 2 = 8 (Q8 à Q10), critère 3 = 3 (Q11), critère 4 = 3 (Q12), total 27. Les questions 11 et 12 ont été reformulées par la créatrice dans Canva. Une carte par critère, avec les cotes A à E et les descripteurs, puis le total des points et la conversion en cote.
 
 La pondération est indiquée à côté de chaque question, par exemple « / 2 ».
 
@@ -159,4 +159,4 @@ Cotes suggérées pour la conversion des points :
 - **Matière :** Français.
 - **Type :** Évaluation.
 - **Étiquettes :** `2e-cycle`, `lecture`, `noel`, `nouveau`.
-- **Nombre de pages :** 14 (texte 4, questionnaire 5, grille 1, corrigé 4). La fiche complète est dans `fiche-produit.md`.
+- **Nombre de pages :** 12 (texte 4, questionnaire et grille 4, corrigé 4). La fiche complète est dans `fiche-produit.md`.
