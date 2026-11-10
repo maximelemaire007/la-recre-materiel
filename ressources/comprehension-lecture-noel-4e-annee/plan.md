@@ -16,22 +16,23 @@
 
 **Document 1 : le texte (3 pages, recto verso)**
 1. Page 1 : grand titre, sous-titre manuscrit, introduction et sections 1 et 2, avec une illustration.
-2. Page 2 : sections 3 et 4, encadré « Le savais-tu ? » et une illustration.
+2. Page 2 : sections 3 et 4, encadré « Le savais-tu? » et une illustration.
 3. Page 3 : section 5 et conclusion, avec une illustration.
 
 Les paragraphes sont numérotés (①, ②, …) pour que les élèves puissent s'y référer dans leurs réponses.
 
-**Document 2 : le questionnaire (4 pages)**
-1. Page 1 : en-tête (nom, date, groupe), puis critère 1 (Comprendre), questions 1 à 4.
-2. Page 2 : critère 1 (suite), questions 5 à 7, puis critère 2 (Interpréter), question 8.
-3. Page 3 : critère 2 (suite), questions 9 et 10, puis critère 3 (Réagir), question 11.
-4. Page 4 : critère 4 (Apprécier), question 12.
+**Document 2 : le questionnaire (4 pages) et la grille (1 page)**
+1. Page 1 : en-tête (nom, date), puis critère 1 (Comprendre), questions 1 à 4.
+2. Page 2 : critère 1 (suite), questions 5 à 7.
+3. Page 3 : critère 2 (Interpréter), questions 8 à 10.
+4. Page 4 : critère 3 (Réagir), question 11, puis critère 4 (Apprécier), question 12.
+5. Page 5 : la grille d'évaluation. Une carte par critère, avec les cotes A à E et les descripteurs, puis le total des points et la conversion en cote.
 
-La pondération est indiquée à côté de chaque question, par exemple « ___ / 2 ».
+La pondération est indiquée à côté de chaque question, par exemple « _____ / 2 ».
 
-**Document 3 : la grille d'évaluation (1 page).** Une ligne par critère, avec les cotes A à E et les descripteurs. La page contient aussi le total des points et le résultat.
+**Document 3 : le corrigé (4 pages).** Il reprend la mise en page du questionnaire : chaque question est suivie d'un encadré gris pâle avec la réponse attendue, les réponses acceptées ou les pistes de correction.
 
-**Document 4 : le corrigé (2 pages).** Réponses attendues, réponses acceptées et pistes pour les questions ouvertes.
+*Note de typographie :* dans les designs, on suit l'usage québécois, sans espace avant le point d'interrogation et le point d'exclamation. Une espace insécable précède le deux-points et entoure le texte entre guillemets.
 
 Les illustrations sont des dessins au trait, à colorier, qui s'impriment bien : sapin, père Noël, table de réveillon, piñata. Elles viennent de vos éléments Noël existants dans Canva, ou de la bibliothèque Canva.
 
@@ -44,9 +45,9 @@ Les illustrations sont des dessins au trait, à colorier, qui s'impriment bien :
 
 **Introduction**
 
-① Chaque année, le 25 décembre, des millions de familles fêtent Noël. Les maisons s'illuminent, les sapins brillent et on échange des cadeaux. Mais sais-tu d'où viennent toutes ces traditions ? Partons à la découverte de cette grande fête !
+① Chaque année, le 25 décembre, des millions de familles fêtent Noël. Les maisons s'illuminent, les sapins brillent et on échange des cadeaux. Mais sais-tu d'où viennent toutes ces traditions? Partons à la découverte de cette grande fête!
 
-### 1. D'où vient Noël ?
+### 1. D'où vient Noël?
 
 ② Noël est d'abord une fête chrétienne. Elle souligne la naissance de Jésus. Le mot « Noël » viendrait d'ailleurs du mot latin *natalis*, qui signifie « de la naissance ».
 
@@ -64,12 +65,12 @@ Les illustrations sont des dessins au trait, à colorier, qui s'impriment bien :
 
 ⑦ Avec le temps, ce personnage s'est transformé. Aujourd'hui, on imagine le père Noël avec une longue barbe blanche, un habit rouge et un gros ventre rond. Il habiterait au pôle Nord avec la mère Noël et ses lutins. La nuit de Noël, il voyagerait dans un traîneau tiré par des rennes pour distribuer les cadeaux.
 
-> **Le savais-tu ?**
-> Au Canada, le père Noël a même son propre code postal : **H0H 0H0** ! Chaque année, des centaines de milliers d'enfants lui écrivent une lettre. Des bénévoles de Postes Canada, qu'on surnomme les lutins, les aident à répondre.
+> **Le savais-tu?**
+> Au Canada, le père Noël a même son propre code postal : **H0H 0H0**! Chaque année, des centaines de milliers d'enfants lui écrivent une lettre. Des bénévoles de Postes Canada, qu'on surnomme les lutins, les aident à répondre.
 
 ### 4. Le réveillon québécois
 
-⑧ Au Québec, le réveillon est un repas de fête qu'on prend dans la nuit du 24 au 25 décembre. Autrefois, les familles le partageaient après la messe de minuit. Elles avaient alors très faim, car la messe était longue et il faisait froid !
+⑧ Au Québec, le réveillon est un repas de fête qu'on prend dans la nuit du 24 au 25 décembre. Autrefois, les familles le partageaient après la messe de minuit. Elles avaient alors très faim, car la messe était longue et il faisait froid!
 
 ⑨ Sur la table, on trouve souvent de la tourtière, du ragoût de boulettes et des atocas. Pour le dessert, on sert la célèbre bûche de Noël, un gâteau roulé qui ressemble à un morceau de bois. Ce dessert rappelle une vieille coutume : on faisait brûler une grosse bûche dans le foyer pendant la fête.
 
@@ -77,13 +78,13 @@ Les illustrations sont des dessins au trait, à colorier, qui s'impriment bien :
 
 ⑩ Au Mexique, les fêtes commencent dès le 16 décembre et durent jusqu'au 24 décembre. Ce sont les *posadas*. Chaque soir, des voisins se réunissent, chantent et cassent une piñata remplie de bonbons.
 
-⑪ En Australie, Noël arrive en plein été ! Il fait souvent très chaud. Plusieurs familles pique-niquent alors sur la plage ou font un barbecue.
+⑪ En Australie, Noël arrive en plein été! Il fait souvent très chaud. Plusieurs familles pique-niquent alors sur la plage ou font un barbecue.
 
-⑫ En Italie, les enfants attendent aussi la Befana. Selon la légende, cette gentille sorcière vole sur son balai dans la nuit du 5 au 6 janvier. Elle apporte des bonbons aux enfants sages et… du charbon aux autres !
+⑫ En Italie, les enfants attendent aussi la Befana. Selon la légende, cette gentille sorcière vole sur son balai dans la nuit du 5 au 6 janvier. Elle apporte des bonbons aux enfants sages et… du charbon aux autres!
 
 **Conclusion**
 
-⑬ Que ce soit autour d'un sapin, d'une piñata ou d'un barbecue, Noël est une occasion de se retrouver. Partout dans le monde, cette fête rassemble les familles et les amis dans la joie et le partage. Et toi, quelle tradition préfères-tu ?
+⑬ Que ce soit autour d'un sapin, d'une piñata ou d'un barbecue, Noël est une occasion de se retrouver. Partout dans le monde, cette fête rassemble les familles et les amis dans la joie et le partage. Et toi, quelle tradition préfères-tu?
 
 *(Environ 620 mots, avec un niveau de langue adapté au 2e cycle.)*
 
@@ -93,27 +94,27 @@ Les illustrations sont des dessins au trait, à colorier, qui s'impriment bien :
 
 ### Critère 1 : Comprendre (*Compréhension des éléments significatifs*) — 14 points
 
-1. **Quand** fête-t-on Noël chaque année ? *(1 point, explicite)*
-2. **Que** signifie le mot latin *natalis* ? *(1 point, explicite)*
-3. **Où** et **en quelle année** le premier sapin de Noël du Québec aurait-il été décoré ? *(2 points, explicite)*
-4. **Qui** a inspiré le personnage du père Noël ? **Que** faisait-il de spécial ? *(2 points, explicite)*
-5. **Pourquoi** les familles avaient-elles très faim au moment du réveillon, autrefois ? *(2 points, explicite)*
-6. **Combien** de soirs les *posadas* durent-elles au Mexique ? Explique comment tu as trouvé ta réponse. *(3 points, implicite : il faut compter du 16 au 24 décembre)*
-7. **Est-ce que** tous les enfants du monde reçoivent leurs cadeaux le 25 décembre ? Appuie ta réponse sur un exemple du texte. *(3 points, implicite)*
+1. **Quand** fête-t-on Noël chaque année? *(1 point, explicite)*
+2. **Que** signifie le mot latin *natalis*? *(1 point, explicite)*
+3. **Où** et **en quelle année** le premier sapin de Noël du Québec aurait-il été décoré? *(2 points, explicite)*
+4. **Qui** a inspiré le personnage du père Noël? **Que** faisait-il de spécial? *(2 points, explicite)*
+5. **Pourquoi** les familles avaient-elles très faim au moment du réveillon, autrefois? *(2 points, explicite)*
+6. **Combien** de soirs les *posadas* durent-elles au Mexique? Explique comment tu as trouvé ta réponse. *(3 points, implicite : il faut compter du 16 au 24 décembre)*
+7. **Est-ce que** tous les enfants du monde reçoivent leurs cadeaux le 25 décembre? Appuie ta réponse sur un exemple du texte. *(3 points, implicite)*
 
 ### Critère 2 : Interpréter (*Interprétation plausible*) — 10 points
 
-8. **Pourquoi**, selon toi, l'auteur dit-il que le sapin est le « roi de la fête » ? Utilise un indice du texte. *(3 points)*
-9. **Pourquoi** les fêtes du solstice d'hiver étaient-elles des « fêtes de lumière » ? Explique dans tes mots. *(3 points)*
-10. **Qu'est-ce que** les traditions de Noël des différents pays ont en commun ? Appuie ta réponse sur deux exemples du texte. *(4 points)*
+8. **Pourquoi**, selon toi, l'auteur dit-il que le sapin est le « roi de la fête »? Utilise un indice du texte. *(3 points)*
+9. **Pourquoi** les fêtes du solstice d'hiver étaient-elles des « fêtes de lumière »? Explique dans tes mots. *(3 points)*
+10. **Qu'est-ce que** les traditions de Noël des différents pays ont en commun? Appuie ta réponse sur deux exemples du texte. *(4 points)*
 
 ### Critère 3 : Réagir (*Justification pertinente des réactions*) — 5 points
 
-11. **Quelle** tradition présentée dans le texte aimerais-tu essayer avec ta famille ou tes amis ? Explique pourquoi en faisant un lien avec ta vie. *(5 points)*
+11. **Quelle** tradition présentée dans le texte aimerais-tu essayer avec ta famille ou tes amis? Explique pourquoi en faisant un lien avec ta vie. *(5 points)*
 
 ### Critère 4 : Apprécier (*Jugement critique*) — 5 points
 
-12. **Est-ce que** la façon dont le texte est organisé t'a aidé à bien le comprendre ? Donne ton opinion et appuie-la sur deux éléments du texte (le titre, les sous-titres, les paragraphes numérotés, les images, l'encadré « Le savais-tu ? »…). *(5 points)*
+12. **Est-ce que** la façon dont le texte est organisé t'a aidé à bien le comprendre? Donne ton opinion et appuie-la sur deux éléments du texte (le titre, les sous-titres, les paragraphes numérotés, les images, l'encadré « Le savais-tu? »…). *(5 points)*
 
 **Total : 34 points**
 
@@ -152,9 +153,9 @@ Cotes suggérées pour la conversion des points :
 - **D** : de 40 % à 59 % ;
 - **E** : moins de 40 %.
 
-## Fiche produit (à finaliser)
+## Fiche produit
 
 - **Matière :** Français.
 - **Type :** Évaluation.
 - **Étiquettes :** `2e-cycle`, `lecture`, `noel`, `nouveau`.
-- **Nombre de pages :** environ 10 (texte 3, questionnaire 4, grille 1, corrigé 2).
+- **Nombre de pages :** 12 (texte 3, questionnaire 4, grille 1, corrigé 4). La fiche complète est dans `fiche-produit.md`.
