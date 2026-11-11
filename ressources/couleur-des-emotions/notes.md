@@ -3,6 +3,7 @@
 ## Ce qui a changé
 - Le format passe au format Lettre (8,5 × 11 po). L'original était en 1728 × 2304 px.
 - L'identité La Récré remplace l'ancienne marque « Deux par deux » : onglet noir, police manuscrite et capitales, logo La Récré, cartes à ombre décalée.
+- Pages des émotions (style de la page 2, retouchée par la créatrice) : onglet noir plus petit avec « LA COULEUR » en capitales et le nom de la couleur en manuscrite, cercle pastel agrandi avec contour noir, ligne de réponse sous la question.
 - Chaque émotion a sa couleur pastel : un cercle derrière le monstre et l'ombre de la carte de dessin.
   - Rouge : #FAD4D4 / #E57373
   - Bleu : #D3ECF8 / #8FCBE8
@@ -22,7 +23,7 @@
 
 ## Structure (10 pages)
 1. Couverture : « Cahier d'activités – La couleur des émotions », à partir de l'album jeunesse, ligne Nom.
-2. à 7. La couleur rouge, bleue, verte, noire, jaune, rose : nommer l'émotion, puis la dessiner.
+2. à 7. La couleur rouge, bleu, vert, noir, jaune, rose : nommer l'émotion sur la ligne, puis la dessiner.
 8. Signification des couleurs : relier chaque couleur à ses trois définitions.
 9. Ma signification : écrire la définition du monstre rose.
 10. Mon monstre d'émotions : colorier son monstre selon ses émotions du jour.
