@@ -21,7 +21,6 @@ Total : 48 opérations. Toutes les sommes sont inférieures à 1000 (réponse à
 - Copie conforme du cahier mis à jour, sans couleur. Seuls les chiffres ajoutés pour le calcul (réponses, retenues, chiffres modifiés par les emprunts) et le titre « CORRIGÉ », qui remplace « Nom » et « Date », sont en rouge (#D62828).
 - Additions : la retenue « 1 » est inscrite dans la case du haut de la colonne suivante.
 - Soustractions : la case du haut indique la nouvelle valeur de chaque chiffre après l'emprunt (p. ex. 931 − 586 : 8, 12, 11 ; 500 − 175 : 4, 9, 10).
-- Pour les soustractions, seules les réponses sont indiquées. Les emprunts ne le sont pas, puisque leur notation varie d'une classe à l'autre.
 - Les chiffres du corrigé sont dans la police par défaut de Canva : l'outil ne permet pas d'y appliquer la police scolaire. Vous pouvez la changer en un clic dans Canva au besoin.
 
 ## À savoir
