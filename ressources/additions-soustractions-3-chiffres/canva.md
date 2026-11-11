@@ -5,7 +5,8 @@ Dossier Canva : https://www.canva.com/folder/FAHaoOSrpjA
 | Design | Pages | Lien d'édition |
 |---|---|---|
 | Cahier d'activités « Additions et soustractions à 3 chiffres » (Lettre) | 4 | https://www.canva.com/d/84bu4QhnQbOUri7 |
-| Corrigé (copie du cahier, réponses en vert) | 5 (pages 2 à 5 exportées) | https://www.canva.com/d/_5O5KuU4sJMh9D4 |
+| Corrigé (copie du cahier, réponses en rouge) | 4 | https://www.canva.com/d/H0hNdJjTu83R6nC |
+| Ancien corrigé (vert, ancien style), désuet : peut être supprimé | 5 | https://www.canva.com/d/_5O5KuU4sJMh9D4 |
 | Aperçu boutique 1 (couverture et pages en éventail) | 1 | https://www.canva.com/d/Gk8G_9H-5PWRqlr |
 | Aperçu boutique 2 (pages d'additions) | 1 | https://www.canva.com/d/TgOoExl2xDyi1Iz |
 | Aperçu boutique 3 (soustractions et corrigé) | 1 | https://www.canva.com/d/5UYrlQp634OUUfe |

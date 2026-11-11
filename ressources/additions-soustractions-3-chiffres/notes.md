@@ -18,7 +18,9 @@ Total : 48 opérations. Toutes les sommes sont inférieures à 1000 (réponse à
 - Consigne à l'élève au tutoiement : « Effectue les additions. Écris tes retenues dans les cases vertes. »
 
 ## Corrigé
-- Copie du cahier. Les réponses et les retenues sont écrites en vert Récré foncé (#287A50), et « CORRIGÉ » remplace la ligne du nom.
+- Copie conforme du cahier mis à jour, sans couleur. Seuls les chiffres ajoutés pour le calcul (réponses, retenues, chiffres modifiés par les emprunts) et le titre « CORRIGÉ », qui remplace « Nom » et « Date », sont en rouge (#D62828).
+- Additions : la retenue « 1 » est inscrite dans la case du haut de la colonne suivante.
+- Soustractions : la case du haut indique la nouvelle valeur de chaque chiffre après l'emprunt (p. ex. 931 − 586 : 8, 12, 11 ; 500 − 175 : 4, 9, 10).
 - Pour les soustractions, seules les réponses sont indiquées. Les emprunts ne le sont pas, puisque leur notation varie d'une classe à l'autre.
 - Les chiffres du corrigé sont dans la police par défaut de Canva : l'outil ne permet pas d'y appliquer la police scolaire. Vous pouvez la changer en un clic dans Canva au besoin.
 
@@ -35,4 +37,4 @@ Total : 48 opérations. Toutes les sommes sont inférieures à 1000 (réponse à
 - Les cases ne sont plus colorées.
 - Chaque opération est numérotée dans un cercle (1 à 12).
 - Le pied de page des pages 1, 2 et 4, et les numéros 2 à 12 de la page 3, sont dans la police par défaut de Canva : l'outil ne permet pas d'appliquer la police scolaire à du texte ajouté.
-- Le corrigé et les aperçus boutique n'ont pas encore été mis à jour avec ce nouveau style.
+- Le corrigé est à jour. Les aperçus boutique n'ont pas encore été mis à jour avec le nouveau style.

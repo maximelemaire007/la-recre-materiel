@@ -14,7 +14,7 @@
 - Deux pages d'additions avec retenues : 12 additions par page, d'abord avec une retenue, puis avec deux retenues.
 - Deux pages de soustractions avec emprunts : 12 soustractions par page, d'abord avec un emprunt, puis avec deux emprunts, y compris des emprunts à travers un zéro.
 - Chaque opération est posée dans une grille, avec une case par chiffre une rangée pour les retenues ou les emprunts, et un numéro dans un cercle.
-- Un corrigé de 4 pages, avec les réponses en vert (à mettre à jour avec le nouveau style).
+- Un corrigé de 4 pages, identique au cahier, avec les réponses, les retenues et les emprunts en rouge.
 - Une version noir et blanc du cahier.
 
 ## Pourquoi vous allez l'aimer (`custom.pourquoi`)
