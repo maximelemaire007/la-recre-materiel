@@ -4,14 +4,14 @@
 
 - **Matière** (`custom.matiere`) : à confirmer
 - **Type de produit :** Cahier d'activités
-- **Étiquettes :** niveaux à confirmer. Ajouter `coup-de-coeur` seulement si vous le souhaitez (c'est votre meilleur vendeur).
+- **Étiquettes :** `1er-cycle` (indiqué dans le pied de page du document). Ajoutez `coup-de-coeur` seulement si vous le souhaitez.
 - **Nombre de pages** (`custom.nombre_pages`) : 10
 - **Format** (`custom.format`) : PDF à imprimer, format Lettre (8,5 × 11 po), en couleur et en noir et blanc
 - **Aperçus** (`custom.apercus`) : `apercus/apercu-1-couverture-rouge.png`, `apercus/apercu-2-significations.png`, `apercus/apercu-3-jaune-mon-monstre.png`
 
 ## Ce que contient le document (`custom.contenu`)
 
-- Une couverture avec une ligne pour le nom de l'élève.
+- Une couverture avec des lignes pour le nom de l'élève et la date.
 - Six pages, une par couleur (rouge, bleu, vert, noir, jaune et rose) : l'élève nomme l'émotion, puis l'exprime à l'aide de dessins.
 - Une page « Signification des couleurs » : l'élève relie chaque couleur à ses trois définitions.
 - Une page « Ma signification » : l'élève écrit ce que le monstre rose lui fait penser ou ressentir.
