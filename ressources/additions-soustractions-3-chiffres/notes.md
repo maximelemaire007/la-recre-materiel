@@ -20,7 +20,7 @@ Total : 48 opérations. Toutes les sommes sont inférieures à 1000 (réponse à
 ## Corrigé
 - Copie conforme du cahier mis à jour, sans couleur. Seuls les chiffres ajoutés pour le calcul (réponses, retenues, chiffres modifiés par les emprunts) et le titre « CORRIGÉ », qui remplace « Nom » et « Date », sont en rouge (#D62828).
 - Additions : la retenue « 1 » est inscrite dans la case du haut de la colonne suivante.
-- Soustractions : la case du haut indique la nouvelle valeur de chaque chiffre après l'emprunt (p. ex. 931 − 586 : 8, 12, 11 ; 500 − 175 : 4, 9, 10).
+- Soustractions : le chiffre auquel on emprunte est barré, et sa nouvelle valeur est inscrite en rouge dans la case du haut. Le chiffre qui reçoit l'emprunt prend un « 1 » rouge devant lui (p. ex. 675 − 158 : le 7 est barré avec 6 au-dessus, et le 5 devient 15). Si un chiffre déjà barré reçoit à son tour un emprunt, le « 1 » s'ajoute devant la valeur du haut (p. ex. 931 − 586 : 12 au-dessus des dizaines). Avec un zéro, le zéro reçoit d'abord un « 1 » (10), puis il est barré et devient 9.
 - Les chiffres du corrigé sont dans la police par défaut de Canva : l'outil ne permet pas d'y appliquer la police scolaire. Vous pouvez la changer en un clic dans Canva au besoin.
 
 ## À savoir
