@@ -40,5 +40,22 @@ La référence de marque est `BRAND.md`, dans le dépôt `la-recre-theme` (lectu
 | Signets (2 par page) | Lettre | https://www.canva.com/d/fh56Ee-xytyXozz |
 | Affiche | Lettre | https://www.canva.com/d/2VtGryVIh91sQBP |
 | Aperçu boutique | 1080 × 1350 px | https://www.canva.com/d/sUQxMQU2AYXEPnO |
+| **Modèle carnet de l'élève** (réf. Mission glaçon) | Lettre | https://www.canva.com/d/27uELb0agJL53xz |
+| **Modèle guide de l'enseignant** (réf. Mission glaçon) | Lettre | https://www.canva.com/d/yb67P-BWXF_plHk |
 
 Dossier : https://www.canva.com/folder/FAHaho10eDc
+
+## Style maison des documents (modèles de référence)
+Depuis Mission glaçon, la créatrice a fixé le style de ses documents. Les deux modèles ci-dessus (copies de ses versions finales) servent de point de départ pour tout nouveau carnet ou guide. On travaille toujours sur une copie.
+
+**Carnet de l'élève**
+- Couverture : cadre noir pleine page, matière et volet en petit (« Science et technologie - Univers matériel »), grand titre en majuscules, titre du projet en écriture cursive, illustration couleur au centre, lignes « Nom » et « Date ».
+- Pages intérieures : bandeau noir en haut à gauche (titre en majuscules et sous-titre cursif), icône au trait en haut à droite, numéro de page « p.X » en haut à droite.
+- Pas de « Nom / Date » sur les pages intérieures.
+- Étapes en titres majuscules gras (« ÉTAPE 1 : JE ME QUESTIONNE »), sous-titres soulignés, cases ☐ et numéros encerclés.
+- Pied de page centré : « Matière - cycle - Boutique La Récré », logo en bas à droite.
+
+**Guide de l'enseignant**
+- Bandeau noir arrondi en haut à gauche (« GUIDE » et « de l'enseignant »).
+- Encadrés arrondis à contour noir : En bref, Le matériel, À préparer la veille, Conseils.
+- Listes à puces, texte justifié, même pied de page que le carnet.
