@@ -42,6 +42,7 @@ La référence de marque est `BRAND.md`, dans le dépôt `la-recre-theme` (lectu
 | Aperçu boutique | 1080 × 1350 px | https://www.canva.com/d/sUQxMQU2AYXEPnO |
 | **Modèle carnet de l'élève** (réf. Mission glaçon) | Lettre | https://www.canva.com/d/27uELb0agJL53xz |
 | **Modèle guide de l'enseignant** (réf. Mission glaçon) | Lettre | https://www.canva.com/d/yb67P-BWXF_plHk |
+| **Modèle aperçu Instagram** (réf. Règles de la classe) | 1080 × 1350 px | https://www.canva.com/d/SjNf7OfQOgcdjDq |
 
 Dossier : https://www.canva.com/folder/FAHaho10eDc
 
@@ -59,3 +60,9 @@ Depuis Mission glaçon, la créatrice a fixé le style de ses documents. Les deu
 - Bandeau noir arrondi en haut à gauche (« GUIDE » et « de l'enseignant »).
 - Encadrés arrondis à contour noir : En bref, Le matériel, À préparer la veille, Conseils.
 - Listes à puces, texte justifié, même pied de page que le carnet.
+
+**Aperçu Instagram** (modèle « Règles de la classe »)
+- Vagues reprises des couleurs du produit (ici rose et orange), avec une bordure pointillée crème en haut.
+- Grand titre en majuscules, crème avec un contour noir ; sous-titre court en dessous (« 6 règles de vie »).
+- Les pages du produit telles quelles, en grille légèrement inclinée (± 2°).
+- En bas, une phrase d'accroche avec une flèche dessinée vers le produit, et le logo noir en bas à droite.
