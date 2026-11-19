@@ -56,6 +56,9 @@ Depuis Mission glaçon, la créatrice a fixé le style de ses documents. Les deu
 - Étapes en titres majuscules gras (« ÉTAPE 1 : JE ME QUESTIONNE »), sous-titres soulignés, cases ☐ et numéros encerclés.
 - Pied de page centré : « Matière - cycle - Boutique La Récré », logo en bas à droite.
 
+**Impression**
+- Tableaux et grilles : bandes en gris pâle seulement (pas de bleu), pour l'impression en noir et blanc.
+
 **Guide de l'enseignant**
 - Bandeau noir arrondi en haut à gauche (« GUIDE » et « de l'enseignant »).
 - Encadrés arrondis à contour noir : En bref, Le matériel, À préparer la veille, Conseils.

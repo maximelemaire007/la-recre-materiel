@@ -19,7 +19,7 @@ Refaite à partir de l'ancien document de la créatrice (« Première présentat
 - Sans année fixe (« l'année qui se termine », « la nouvelle année ») pour être réutilisable chaque année.
 - Formulations épicènes (« fier ou fière ») et corrections : « Quelles sont tes résolutions », « dont tu es fier ».
 - La signature « Madame Maxime » est remplacée par une ligne de signature.
-- Grille : mêmes critères et mêmes points (/60, /30, /10, total /100), formulés en une ligne.
+- Grille en gris (pas de couleur) pour l’impression en noir et blanc; mêmes critères et mêmes points (/60, /30, /10, total /100), formulés en une ligne.
 
 ## Fichiers
 - `presentation-orale-nouvelle-annee.pdf` (5 pages, Lettre).
