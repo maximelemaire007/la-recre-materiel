@@ -3,7 +3,7 @@
 Projet de science et technologie de Noël pour le 1er cycle (idéal en 2e année, possible en 1re année avec soutien), à partir du cahier des charges fourni par la créatrice. Même mise en page que Mission glaçon et Mission pont, adaptée aux jeunes lecteurs : phrases courtes, cases à cocher, images à entourer, grands espaces de dessin.
 
 ## Déroulement (2 périodes de 50 à 60 min, équipes de 2 ou 3)
-1. **L'expérience (frottement)** : lettre du père Noël (p. 1), prédiction (p. 2), 3 étapes illustrées (p. 3), tableau des distances et surface gagnante (p. 4).
+1. **L'expérience (frottement)** : lettre du père Noël (p. 1), prédiction (p. 2), liste de matériel à cocher et 3 étapes illustrées (p. 3), tableau des distances et surface gagnante (p. 4).
 2. **Le défi de conception** : plan dessiné du traîneau (p. 5), test et amélioration (p. 6).
 
 ## L'expérience
