@@ -1,5 +1,7 @@
 # Compréhension de lecture : La nuit où Noël s'est éteint (2e cycle)
 
+> **Note :** ceci est le plan de départ. La créatrice a ensuite retravaillé le produit dans Canva : il s'intitule maintenant « Un réveillon pas comme les autres », vise le 3e cycle et est noté sur 26. Les PDF de ce dossier font foi.
+
 ## Le besoin
 - **Public :** 2e cycle (3e et 4e année). Français, compétence *Lire des textes variés*.
 - **Type de texte :** narratif, qui suit le schéma narratif (situation initiale, élément déclencheur, péripéties, dénouement, situation finale). Thème de Noël, sans le père Noël.
