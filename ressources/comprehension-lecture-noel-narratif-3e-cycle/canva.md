@@ -14,6 +14,7 @@ Le texte, le questionnaire et le corrigé sont des copies des modèles du 2e cyc
 L'aperçu boutique est une copie des pages 1 et 2 de « Aperçus boutique – Compréhension de lecture Noël 3e cycle ». Le modèle original n'a pas été modifié.
 
 ## Fichiers (dans ce dossier)
+- `fiche-produit.md` : la description et les champs de la fiche boutique.
 - `plan.md` : le projet de départ (histoire, schéma narratif, questions). Le texte final est celui du PDF.
 - `texte-un-reveillon-pas-comme-les-autres.pdf` : le texte de l'élève (3 pages, Lettre).
 - `questionnaire-un-reveillon-pas-comme-les-autres.pdf` : le questionnaire et la grille d'évaluation (4 pages, Lettre).
