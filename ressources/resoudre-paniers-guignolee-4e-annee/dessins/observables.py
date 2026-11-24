@@ -5,8 +5,8 @@ from PIL import ImageFont
 import cairosvg
 
 INK = '#1E1E1E'
-FR = '/root/.fonts/Nunito-Regular.ttf'
-FB = '/root/.fonts/Nunito-Bold.ttf'
+FR = '/root/.fonts/KGPerfectPenmanship.ttf'  # police de la créatrice (non versionnée, licence)
+FB = FR
 W = 720                 # largeur du tableau (px Canva)
 C0 = 190                # colonne des critères
 PAD = 14
@@ -102,26 +102,26 @@ def bloc(crit, lignes, y):
             parts = couper(t, maxw - 22)
             s += f"<rect x='{x1}' y='{yy-11}' width='11' height='11' fill='#fff' stroke='{INK}' stroke-width='1.2'/>"
             for k, p in enumerate(parts):
-                s += f"<text x='{x1+20}' y='{yy+k*LH}' font-family='Nunito' font-size='{FS}' fill='{INK}'>{esc(p)}</text>"
+                s += f"<text x='{x1+20}' y='{yy+k*LH}' font-family='KG Perfect Penmanship' font-size='{FS}' fill='{INK}'>{esc(p)}</text>"
             yy += LH * len(parts) + 2
         elif typ == 'sec':
             yy += 6
             s += (f"<path d='M{x1} {yy-11} L{x1+12} {yy-5.5} L{x1} {yy} L{x1+3.5} {yy-5.5} Z' fill='{INK}'/>"
-                  f"<text x='{x1+20}' y='{yy}' font-family='Nunito' font-weight='700' font-size='{FS}' fill='{INK}'>{esc(t)}</text>")
+                  f"<text x='{x1+20}' y='{yy}' font-family='KG Perfect Penmanship' stroke='#1E1E1E' stroke-width='0.7' font-size='{FS}' fill='{INK}'>{esc(t)}</text>")
             yy += LH + 3
         else:
             bold = typ == 'b'
             parts = couper(t, maxw, bold)
             for k, p in enumerate(parts):
-                s += (f"<text x='{x1}' y='{yy+k*LH}' font-family='Nunito' font-size='{FS}' fill='{INK}' "
-                      f"{'font-weight=\"700\"' if bold else ''} {'font-style=\"italic\"' if typ == 'it' else ''}>{esc(p)}</text>")
+                s += (f"<text x='{x1}' y='{yy+k*LH}' font-family='KG Perfect Penmanship' font-size='{FS}' fill='{INK}' "
+                      f"{'stroke=\"#1E1E1E\" stroke-width=\"0.7\"' if bold else ''} {'font-style=\"italic\"' if typ == 'it' else ''}>{esc(p)}</text>")
             yy += LH * len(parts) + 2
     h = yy - y + PAD - 6
     # critère centré verticalement
     cl = couper(crit, C0 - 2 * PAD, True)
     cy = y + h / 2 - (len(cl) - 1) * 11 + 5
     for k, p in enumerate(cl):
-        s += f"<text x='{C0/2}' y='{cy+k*22}' font-family='Nunito' font-weight='700' font-size='16' text-anchor='middle' fill='{INK}'>{esc(p)}</text>"
+        s += f"<text x='{C0/2}' y='{cy+k*22}' font-family='KG Perfect Penmanship' stroke='#1E1E1E' stroke-width='0.7' font-size='16' text-anchor='middle' fill='{INK}'>{esc(p)}</text>"
     s = (f"<rect x='0' y='{y}' width='{W}' height='{h}' fill='#fff' stroke='{INK}' stroke-width='1.5'/>"
          f"<line x1='{C0}' y1='{y}' x2='{C0}' y2='{y+h}' stroke='{INK}' stroke-width='1.5'/>") + s
     return s, h
@@ -130,9 +130,9 @@ def bloc(crit, lignes, y):
 def entete():
     s = (f"<rect x='0' y='0' width='{W}' height='86' fill='#fff' stroke='{INK}' stroke-width='1.5'/>"
          f"<rect x='0' y='0' width='{W}' height='18' fill='{INK}'/>"
-         f"<text x='{W-10}' y='14' font-family='Nunito' font-weight='800' font-size='13' text-anchor='end' fill='#fff'>4e année</text>"
-         f"<text x='{W/2}' y='42' font-family='Nunito' font-weight='700' font-size='15' text-anchor='middle' fill='{INK}'>Éléments observables</text>"
-         f"<text x='{W/2}' y='72' font-family='Nunito' font-weight='800' font-size='24' text-anchor='middle' fill='{INK}'>Les paniers de la guignolée</text>")
+         f"<text x='{W-10}' y='14' font-family='KG Perfect Penmanship' font-size='13' text-anchor='end' fill='#fff' stroke='#fff' stroke-width='0.5'>4e année</text>"
+         f"<text x='{W/2}' y='42' font-family='KG Perfect Penmanship' stroke='#1E1E1E' stroke-width='0.7' font-size='15' text-anchor='middle' fill='{INK}'>Éléments observables</text>"
+         f"<text x='{W/2}' y='72' font-family='KG Perfect Penmanship' stroke='#1E1E1E' stroke-width='1' font-size='24' text-anchor='middle' fill='{INK}'>Les paniers de la guignolée</text>")
     return s, 86
 
 
