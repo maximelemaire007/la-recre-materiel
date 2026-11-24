@@ -88,51 +88,44 @@ def fournisseurs():
     for i, (let, nom, n, cols, prix, unite) in enumerate(cartes):
         x = 10 + i * (cw + 20)
         b += f"<rect x='{x}' y='10' width='{cw}' height='280' rx='18' fill='#fff' stroke='{INK}' stroke-width='3'/>"
-        b += f"<circle cx='{x+30}' cy='40' r='18' fill='{INK}'/>" + txt(x + 30, 47, let, 20, font=T, fill='#fff')
-        b += txt(x + cw / 2 + 20, 47, nom, 18, weight=800)
+        b += f"<circle cx='{x+30}' cy='40' r='18' fill='{INK}'/>" + txt(x + 30, 48, let, 22, font=KG, fill='#fff')
+        b += txt(x + 128, 48, nom, 20, font=KG)
         b += pile(x + cw / 2, 175, n, cols)
         b += f"<line x1='{x+20}' y1='200' x2='{x+cw-20}' y2='200' stroke='{GRIS}' stroke-width='2'/>"
-        b += txt(x + cw / 2, 245, prix, 34, font=T)
-        b += txt(x + cw / 2, 274, unite, 16, weight=700)
+        b += txt(x + cw / 2, 248, prix, 38, font=KG)
+        b += txt(x + cw / 2, 276, unite, 18, font=KG)
     save('fournisseurs-boites', W, H, b)
 
 
 # ---------- 3. Le ruban ----------
 def ruban():
-    W, H = 640, 330
+    W, H = 640, 290
+    RUB = f"fill='none' stroke='{INK}' stroke-width='7' stroke-linecap='round' stroke-linejoin='round'"
     # dessus de la boîte vu de haut (rectangle 30 cm x 20 cm), à l'échelle
     k = 8
     x, y = 90, 70
     w, h = 30 * k, 20 * k
-    b = txt(x + w / 2, 40, 'Le dessus de la boîte', 18, weight=800)
-    b += f"<rect x='{x}' y='{y}' width='{w}' height='{h}' fill='{GRIS_PALE}' stroke='{INK}' stroke-width='3'/>"
-    # ruban qui fait le tour du dessus (en pointillé gras sur le contour)
-    b += f"<rect x='{x}' y='{y}' width='{w}' height='{h}' fill='none' stroke='{INK}' stroke-width='7' stroke-dasharray='14 8'/>"
-    # boucle
+    b = txt(x + w / 2, 42, 'Taille de la boîte', 22, font=KG)
+    b += f"<rect x='{x}' y='{y}' width='{w}' height='{h}' fill='{GRIS_PALE}' stroke='none'/>"
+    # ruban qui fait le tour du dessus : même ligne noire épaisse que la boucle
+    b += f"<rect x='{x}' y='{y}' width='{w}' height='{h}' {RUB}/>"
     bx, by = x + w, y
-    b += (f"<path d='M{bx} {by} c 30 -40 70 -20 40 10 c -20 18 -40 0 -40 -10 c -10 -30 30 -60 46 -30' "
-          f"fill='none' stroke='{INK}' stroke-width='5' stroke-linecap='round'/>")
-    b += txt(x + w / 2, y + h + 34, '30 cm', 18, weight=800)
-    b += txt(x - 14, y + h / 2 + 6, '20 cm', 18, 'end', weight=800)
+    b += f"<path d='M{bx} {by} c 30 -40 70 -20 40 10 c -20 18 -40 0 -40 -10 c -10 -30 30 -60 46 -30' {RUB}/>"
+    b += txt(x + w / 2, y + h + 36, '30 cm', 21, font=KG)
+    b += txt(x - 14, y + h / 2 + 7, '20 cm', 21, 'end', font=KG)
     # légende
     lx = 400
-    b += f"<line x1='{lx}' y1='120' x2='{lx+44}' y2='120' stroke='{INK}' stroke-width='7' stroke-dasharray='14 8'/>"
-    b += txt(lx + 56, 126, 'le ruban fait', 17, 'start', 700) + txt(lx + 56, 148, 'le tour du dessus', 17, 'start', 700)
-    b += (f"<path d='M{lx+4} 196 c 18 -24 42 -12 24 6 c -12 11 -24 0 -24 -6' fill='none' stroke='{INK}' "
-          f"stroke-width='4' stroke-linecap='round'/>")
-    b += txt(lx + 56, 194, '+ 50 cm pour', 17, 'start', 700) + txt(lx + 56, 216, 'faire la boucle', 17, 'start', 700)
-    # rouleau
-    rx, ry = 420, 262
-    b += f"<ellipse cx='{rx}' cy='{ry}' rx='16' ry='30' fill='{GRIS}' stroke='{INK}' stroke-width='3'/>"
-    b += f"<ellipse cx='{rx}' cy='{ry}' rx='6' ry='11' fill='#fff' stroke='{INK}' stroke-width='2'/>"
-    b += txt(rx + 34, ry - 4, 'Rouleau de 5 m', 18, 'start', 800) + txt(rx + 34, ry + 24, '3 $', 22, 'start', font=T)
+    b += f"<line x1='{lx}' y1='122' x2='{lx+44}' y2='122' {RUB}/>"
+    b += txt(lx + 58, 120, 'le ruban fait', 20, 'start', font=KG) + txt(lx + 58, 145, 'le tour du dessus', 20, 'start', font=KG)
+    b += f"<path d='M{lx+6} 200 c 18 -24 42 -12 24 6 c -12 11 -24 0 -24 -6' {RUB}/>"
+    b += txt(lx + 58, 196, '+ 50 cm pour', 20, 'start', font=KG) + txt(lx + 58, 221, 'faire la boucle', 20, 'start', font=KG)
     save('ruban', W, H, b)
 
 
 # ---------- 4. Les étiquettes ----------
 def etiquettes():
     u = 18                      # 1 unité de la grille
-    W, H = 700, 280
+    W, H = 700, 235
     fig = [  # (numéro, sommets en unités, prix)
         ('1', [(0, 0), (4, 0), (4, 4), (0, 4)], '3 $'),                 # carré
         ('2', [(0, 0), (6, 0), (6, 3), (0, 3)], '2 $'),                 # rectangle
@@ -141,10 +134,10 @@ def etiquettes():
         ('5', [(1, 0), (4, 0), (6, 4), (0, 4)], '3 $'),                 # trapèze
     ]
     b = ''
-    zones = [(7 + i * 140, 20) for i in range(5)]
+    zones = [(7 + i * 140, 0) for i in range(5)]
     for (num, pts, prix), (zx, zy) in zip(fig, zones):
         gw, gh = 7, 7
-        ox, oy = zx, zy + 30
+        ox, oy = zx, zy + 8
         for i in range(gw + 1):
             for j in range(gh + 1):
                 b += f"<circle cx='{ox+i*u}' cy='{oy+j*u}' r='1.6' fill='#9A9A9A'/>"
@@ -154,10 +147,9 @@ def etiquettes():
         b += f"<path d='{d}' fill='{GRIS_PALE}' stroke='{INK}' stroke-width='3' stroke-linejoin='round'/>"
         cx = ox + (sum(p[0] for p in pts) / len(pts) + dx) * u
         cy = oy + (sum(p[1] for p in pts) / len(pts) + dy) * u
-        b += f"<circle cx='{cx}' cy='{cy}' r='5' fill='#fff' stroke='{INK}' stroke-width='2'/>"   # trou de l'étiquette
-        b += f"<circle cx='{zx+gw*u/2}' cy='{zy+8}' r='15' fill='{INK}'/>" + txt(zx + gw * u / 2, zy + 15, num, 18, font=T, fill='#fff')
-        b += txt(zx + gw * u / 2, oy + gh * u + 40, prix, 28, font=T)
-        b += txt(zx + gw * u / 2, oy + gh * u + 62, 'le paquet de 6', 14, weight=700)
+        b += txt(cx, cy + 10, num, 28, font=KG)                         # numéro de l'étiquette
+        b += txt(zx + gw * u / 2, oy + gh * u + 42, prix, 32, font=KG)
+        b += txt(zx + gw * u / 2, oy + gh * u + 66, 'le paquet de 6', 17, font=KG)
     save('etiquettes', W, H, b)
 
 
