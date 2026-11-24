@@ -21,4 +21,5 @@ L'aperçu boutique est une copie de la page 1 de « Aperçus boutique – Missio
 - `cahier-eleve-paniers-guignolee.pdf` : le cahier de l'élève, avec la vérification et la grille A à E (4 pages, Lettre).
 - `corrige-paniers-guignolee.pdf` : le corrigé et la grille « Éléments observables » (4 pages, Lettre).
 - `apercus/apercu-boutique.png` : l'aperçu boutique.
+- `fiche-produit.md` : la description et les champs de la fiche boutique.
 - `dessins/` : les dessins et les scripts qui les génèrent : `dessins.py` (diagramme, fournisseurs, ruban, étiquettes, quadrillage, icônes, couverture) et `observables.py` (grille « Éléments observables » et grille A à E, en KG Perfect Penmanship).
