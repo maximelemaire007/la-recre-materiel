@@ -157,3 +157,63 @@ def page(nom, parts):
 if __name__ == '__main__':
     print('p1', page('observables-1', ['entete', COMP]))
     print('p2', page('observables-2', [MOB, 'gap', EXP]))
+
+
+def resultat(nom='grille-resultat'):
+    """Grille-synthèse A à E (modèle de la créatrice), en gris selon BRAND.md."""
+    GR = '#D9D9D9'
+    KGF = "font-family='KG Perfect Penmanship'"
+    B = f"stroke='{INK}' stroke-width='0.7'"
+    Wt, x0 = 720, 0
+    c1 = 330                       # colonne des critères
+    cw = (Wt - c1) / 5             # colonnes A à E
+    y0 = 48                        # sous le titre
+    hH1, hH2, r1, r2, r3, rR = 60, 44, 76, 76, 56, 56
+    H = y0 + hH1 + hH2 + r1 + r2 + r3 + rR
+    sep = 4                        # filets blancs entre les cases
+    s = f"<text x='0' y='32' {KGF} font-size='30' fill='{INK}' stroke='{INK}' stroke-width='1'>Résoudre une situation-problème</text>"
+    # fond gris arrondi
+    s += f"<rect x='0' y='{y0}' width='{Wt}' height='{H-y0}' rx='18' fill='{GR}'/>"
+    def case(x, y, w, h):
+        return f"<rect x='{x+sep/2}' y='{y+sep/2}' width='{w-sep}' height='{h-sep}' fill='#fff'/>"
+    def t(x, y, txt, size=19, anchor='start', bold=False):
+        return (f"<text x='{x}' y='{y}' {KGF} font-size='{size}' text-anchor='{anchor}' fill='{INK}' "
+                f"{B if bold else ''}>{esc(txt)}</text>")
+    # en-tête
+    s += t(22, y0 + (hH1 + hH2) / 2 + 7, 'Critères d’évaluation', 21, bold=True)
+    s += f"<line x1='{c1}' y1='{y0}' x2='{c1}' y2='{H}' stroke='#fff' stroke-width='{sep}'/>"
+    s += f"<line x1='{c1}' y1='{y0+hH1}' x2='{Wt}' y2='{y0+hH1}' stroke='#fff' stroke-width='{sep}'/>"
+    s += t(c1 + (Wt - c1) / 2, y0 + 26, 'Manifestations observables', 20, 'middle', True)
+    s += t(c1 + (Wt - c1) / 2, y0 + 50, 'd’un niveau', 20, 'middle', True)
+    for i, L in enumerate('ABCDE'):
+        x = c1 + i * cw
+        if i:
+            s += f"<line x1='{x}' y1='{y0+hH1}' x2='{x}' y2='{y0+hH1+hH2}' stroke='#fff' stroke-width='{sep}'/>"
+        s += t(x + cw / 2, y0 + hH1 + 30, L, 21, 'middle', True)
+    # rangées
+    y = y0 + hH1 + hH2
+    rangs = [(['Compréhension de la', 'situation-problème'], r1, [40, 32, 24, 16, 8]),
+             (['Mobilisation des concepts et des', 'processus appropriés à la situation'], r2, [40, 32, 24, 16, 8]),
+             (['Explicitation de la solution (traces)'], r3, [20, 16, 12, 8, 4])]
+    for lignes, h, pts in rangs:
+        s += case(0, y, c1, h)
+        for k, l in enumerate(lignes):
+            s += t(22, y + h / 2 + 7 - (len(lignes) - 1) * 12 + k * 24, l, 18.5)
+        for i, p in enumerate(pts):
+            s += case(c1 + i * cw, y, cw, h)
+            s += t(c1 + i * cw + cw / 2, y + h / 2 + 7, str(p), 20, 'middle')
+        y += h
+    # résultat
+    s += t(c1 - 22, y + rR / 2 + 8, 'Résultat', 21, 'end', True)
+    s += (f"<path d='M{c1+sep/2} {y+sep/2} H{Wt-sep/2} V{y+rR-18} "
+          f"A{18-sep/2} {18-sep/2} 0 0 1 {Wt-18} {y+rR-sep/2} H{c1+sep/2} Z' fill='#fff'/>")
+    s += t(c1 + (Wt - c1) / 2, y + rR / 2 + 8, '/100', 21, 'middle')
+    svg = (f"<svg xmlns='http://www.w3.org/2000/svg' width='{Wt+2}' height='{H+2}' viewBox='-1 -1 {Wt+2} {H+2}'>"
+           f"<rect x='-1' y='-1' width='{Wt+2}' height='{H+2}' fill='#fff'/>{s}</svg>")
+    open(nom + '.svg', 'w', encoding='utf-8').write(svg)
+    cairosvg.svg2png(bytestring=svg.encode(), write_to=nom + '.png', scale=3)
+    print('resultat', H + 2)
+
+
+if __name__ == '__main__':
+    resultat()
