@@ -92,33 +92,53 @@ def fournisseurs():
         b += txt(x + 128, 48, nom, 20, font=KG)
         b += pile(x + cw / 2, 175, n, cols)
         b += f"<line x1='{x+20}' y1='200' x2='{x+cw-20}' y2='200' stroke='{GRIS}' stroke-width='2'/>"
-        b += txt(x + cw / 2, 248, prix, 38, font=KG)
+        b += txt(x + cw / 2, 244, prix, 28, font=KG)
         b += txt(x + cw / 2, 276, unite, 18, font=KG)
     save('fournisseurs-boites', W, H, b)
 
 
 # ---------- 3. Le ruban ----------
+def boucle(cx, cy, k=1.0, sw=5):
+    """Boucle de ruban (deux oreilles, un nœud, deux pans), centrée sur le nœud (cx, cy)."""
+    st = f"fill='#fff' stroke='{INK}' stroke-width='{sw}' stroke-linejoin='round' stroke-linecap='round'"
+    pli = f"fill='none' stroke='{INK}' stroke-width='{sw*0.6}' stroke-linecap='round'"
+    g = (
+        # pans (derrière)
+        f"<path d='M-6 6 L-26 46 L-16 42 L-10 52 L6 10 Z' {st}/>"
+        f"<path d='M6 6 L26 46 L16 42 L10 52 L-6 10 Z' {st}/>"
+        # oreilles
+        f"<path d='M-6 -4 C-30 -34 -62 -26 -58 -4 C-55 16 -26 14 -6 4 Z' {st}/>"
+        f"<path d='M6 -4 C30 -34 62 -26 58 -4 C55 16 26 14 6 4 Z' {st}/>"
+        # plis dans les oreilles
+        f"<path d='M-14 -4 C-28 -14 -40 -14 -46 -8' {pli}/>"
+        f"<path d='M14 -4 C28 -14 40 -14 46 -8' {pli}/>"
+        # nœud
+        f"<rect x='-11' y='-11' width='22' height='22' rx='6' {st}/>"
+    )
+    return f"<g transform='translate({cx} {cy}) scale({k})'>{g}</g>"
+
+
 def ruban():
-    W, H = 640, 290
+    W, H = 640, 300
     RUB = f"fill='none' stroke='{INK}' stroke-width='7' stroke-linecap='round' stroke-linejoin='round'"
     # dessus de la boîte vu de haut (rectangle 30 cm x 20 cm), à l'échelle
     k = 8
-    x, y = 90, 70
+    x, y = 90, 90
     w, h = 30 * k, 20 * k
-    b = txt(x + w / 2, 42, 'Taille de la boîte', 22, font=KG)
+    b = txt(x + w / 2, 30, 'Taille de la boîte', 22, font=KG)
     b += f"<rect x='{x}' y='{y}' width='{w}' height='{h}' fill='{GRIS_PALE}' stroke='none'/>"
-    # ruban qui fait le tour du dessus : même ligne noire épaisse que la boucle
+    # ruban qui fait le tour du dessus : ligne noire épaisse
     b += f"<rect x='{x}' y='{y}' width='{w}' height='{h}' {RUB}/>"
-    bx, by = x + w, y
-    b += f"<path d='M{bx} {by} c 30 -40 70 -20 40 10 c -20 18 -40 0 -40 -10 c -10 -30 30 -60 46 -30' {RUB}/>"
+    # boucle posée au milieu du côté du haut
+    b += boucle(x + w / 2, y, 0.9)
     b += txt(x + w / 2, y + h + 36, '30 cm', 21, font=KG)
     b += txt(x - 14, y + h / 2 + 7, '20 cm', 21, 'end', font=KG)
     # légende
     lx = 400
-    b += f"<line x1='{lx}' y1='122' x2='{lx+44}' y2='122' {RUB}/>"
-    b += txt(lx + 58, 120, 'le ruban fait', 20, 'start', font=KG) + txt(lx + 58, 145, 'le tour du dessus', 20, 'start', font=KG)
-    b += f"<path d='M{lx+6} 200 c 18 -24 42 -12 24 6 c -12 11 -24 0 -24 -6' {RUB}/>"
-    b += txt(lx + 58, 196, '+ 50 cm pour', 20, 'start', font=KG) + txt(lx + 58, 221, 'faire la boucle', 20, 'start', font=KG)
+    b += f"<line x1='{lx}' y1='132' x2='{lx+44}' y2='132' {RUB}/>"
+    b += txt(lx + 58, 130, 'le ruban fait', 20, 'start', font=KG) + txt(lx + 58, 155, 'le tour de la boîte', 20, 'start', font=KG)
+    b += boucle(lx + 22, 212, 0.42, sw=8)
+    b += txt(lx + 58, 208, '+ 50 cm pour', 20, 'start', font=KG) + txt(lx + 58, 233, 'faire la boucle', 20, 'start', font=KG)
     save('ruban', W, H, b)
 
 
@@ -148,8 +168,8 @@ def etiquettes():
         cx = ox + (sum(p[0] for p in pts) / len(pts) + dx) * u
         cy = oy + (sum(p[1] for p in pts) / len(pts) + dy) * u
         b += txt(cx, cy + 10, num, 28, font=KG)                         # numéro de l'étiquette
-        b += txt(zx + gw * u / 2, oy + gh * u + 42, prix, 32, font=KG)
-        b += txt(zx + gw * u / 2, oy + gh * u + 66, 'le paquet de 6', 17, font=KG)
+        b += txt(zx + gw * u / 2, oy + gh * u + 38, prix, 24, font=KG)
+        b += txt(zx + gw * u / 2, oy + gh * u + 62, 'le paquet de 6', 17, font=KG)
     save('etiquettes', W, H, b)
 
 
