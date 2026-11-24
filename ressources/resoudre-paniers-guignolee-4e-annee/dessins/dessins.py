@@ -11,6 +11,7 @@ GRIS = '#D9D9D9'
 GRIS_PALE = '#EFEFEF'
 F = "font-family='Nunito'"
 T = "font-family='Lilita One'"
+KG = "font-family='KG Perfect Penmanship'"  # police de la créatrice (non versionnée, licence)
 
 
 def save(name, w, h, body, scale=3):
@@ -31,14 +32,14 @@ def diagramme():
     x0, y0, x1, ytop = 90, 360, 610, 50          # axes
     vmax = 70
     sy = (y0 - ytop) / vmax
-    b = txt(W / 2, 30, 'Denrées amassées par classe', 22, font=T)
+    b = txt(W / 2, 32, 'Denrées amassées par classe', 26, font=KG)
     for v in range(0, vmax + 1, 2):
         y = y0 - v * sy
         fort = v % 10 == 0
         b += f"<line x1='{x0}' y1='{y}' x2='{x1}' y2='{y}' stroke='{'#9A9A9A' if fort else '#D4D4D4'}' stroke-width='{1.4 if fort else 0.8}'/>"
         b += f"<line x1='{x0-(9 if fort else 5)}' y1='{y}' x2='{x0}' y2='{y}' stroke='{INK}' stroke-width='1.4'/>"
         if fort:
-            b += txt(x0 - 14, y + 5, str(v), 15, 'end')
+            b += txt(x0 - 14, y + 6, str(v), 17, 'end', font=KG)
     data = [('3e année A', 48), ('3e année B', 62), ('4e année A', 56), ('4e année B', 58)]
     bw = 70
     step = (x1 - x0) / len(data)
@@ -46,12 +47,12 @@ def diagramme():
         cx = x0 + step * (i + .5)
         b += (f"<rect x='{cx-bw/2}' y='{y0-v*sy}' width='{bw}' height='{v*sy}' fill='{GRIS}' "
               f"stroke='{INK}' stroke-width='2'/>")
-        b += txt(cx, y0 + 26, lab, 16, weight=700)
+        b += txt(cx, y0 + 28, lab, 18, font=KG)
     b += f"<line x1='{x0}' y1='{ytop-8}' x2='{x0}' y2='{y0}' stroke='{INK}' stroke-width='2.5'/>"
     b += f"<line x1='{x0}' y1='{y0}' x2='{x1}' y2='{y0}' stroke='{INK}' stroke-width='2.5'/>"
-    b += txt(30, (y0 + ytop) / 2, 'Nombre de denrées', 16, weight=700,
+    b += txt(30, (y0 + ytop) / 2, 'Nombre de denrées', 18, font=KG,
              extra=f"transform='rotate(-90 30 {(y0+ytop)/2})'")
-    b += txt((x0 + x1) / 2, y0 + 56, 'Classes', 16, weight=700)
+    b += txt((x0 + x1) / 2, y0 + 60, 'Classes', 18, font=KG)
     save('diagramme-denrees', W, H, b)
 
 
