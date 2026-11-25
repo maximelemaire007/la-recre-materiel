@@ -92,8 +92,13 @@ FS, LH = 8.6, 10.6
 s = f"<rect width='{W}' height='{H}' fill='#fff'/>"
 s += (f"<text x='{W/2}' y='34' {KG} font-size='22' text-anchor='middle' fill='{INK}' stroke='{INK}' stroke-width='0.9'>"
       f"Grille d’évaluation en écriture – 2e cycle</text>")
-s += f"<text x='{X0}' y='62' {KG} font-size='13' fill='{INK}'>Nom de l’élève : ______________________________</text>"
-s += f"<text x='{W-X0}' y='62' {KG} font-size='13' text-anchor='end' fill='{INK}'>Résultat : ________ / 100</text>"
+s += f"<text x='{X0}' y='62' {KG} font-size='13' fill='{INK}'>Nom de l’élève :</text>"
+xn = X0 + larg('Nom de l’élève :', 13) + 6
+s += f"<line x1='{xn}' y1='64' x2='{xn+230}' y2='64' stroke='{INK}' stroke-width='1.2'/>"
+s += f"<text x='{W-X0}' y='62' {KG} font-size='13' text-anchor='end' fill='{INK}'>/ 100</text>"
+xr = W - X0 - larg('/ 100', 13) - 6
+s += f"<line x1='{xr-70}' y1='64' x2='{xr}' y2='64' stroke='{INK}' stroke-width='1.2'/>"
+s += f"<text x='{xr-76}' y='62' {KG} font-size='13' text-anchor='end' fill='{INK}'>Résultat :</text>"
 
 xs = [X0]
 for c in CW:
