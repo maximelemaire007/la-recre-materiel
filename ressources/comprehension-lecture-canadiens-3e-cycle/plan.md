@@ -109,7 +109,7 @@
 11. **Quel** joueur ou **quel** fait présenté dans le texte t'a le plus impressionné? Explique pourquoi en faisant un lien avec ta vie ou tes expériences. *(3 points)*
 
 ### Critère 4 : Apprécier (3 points)
-12. Selon toi, l'auteur réussit-il à montrer que les Canadiens de Montréal sont « une équipe de légende »? Donne ton opinion et appuie-la sur deux éléments du texte. *(3 points)*
+12. **As-tu aimé** ce texte? Explique pourquoi à l'aide d'un élément littéraire (par exemple : le titre, les intertitres, l'encadré « Le savais-tu? », les citations, les exemples, le vocabulaire, la façon de s'adresser au lecteur). *(3 points)*
 
 ---
 
@@ -125,7 +125,7 @@
 9. Pistes : les anciens joueurs passent la responsabilité aux nouveaux ; les joueurs actuels doivent être fiers et continuer à faire gagner l'équipe.
 10. Pistes : 24 coupes Stanley, plus que toute autre équipe ; cinq coupes de suite de 1956 à 1960, un exploit unique ; Henri Richard, recordman avec 11 coupes. Deux informations sont attendues.
 11. Réponse personnelle (un joueur d'hier ou d'aujourd'hui est accepté) : un joueur ou un fait nommé, une justification et un lien précis avec sa vie.
-12. Réponse personnelle : une opinion claire (oui, non ou en partie) appuyée sur deux éléments précis du texte (par exemple les 24 coupes Stanley, les cinq coupes de suite, les joueurs comme Maurice Richard ou Henri Richard, les trophées gagnés aujourd'hui par Suzuki, Caufield ou Hutson, le Forum vu comme un temple du hockey, la fidélité des partisans). 1 point pour l'opinion, 1 point par élément bien expliqué.
+12. Réponse personnelle : une appréciation claire (j'ai aimé, je n'ai pas aimé, j'ai aimé en partie) (1 point), justifiée par un élément littéraire nommé (1 point) et expliqué à l'aide d'un exemple précis du texte (1 point). Exemples : l'encadré « Le savais-tu? » m'a appris un fait surprenant sur le H du logo ; les intertitres m'ont aidé à retrouver l'information ; l'auteur s'adresse directement au lecteur (« Et toi…? »), ce qui rend le texte vivant.
 
 ## Barème
 | Critère | Questions | Points |
