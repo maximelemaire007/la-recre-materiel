@@ -102,32 +102,31 @@ def choix():
 
 
 def banque():
-    rows = [('Personnages', 'lutin, lutine, père Noël, mère Noël, renne, apprenti, chef des lutins'),
-            ('Lieux', 'atelier, village, forêt enneigée, entrepôt, traîneau, pôle Nord'),
-            ('Verbes', 'fabriquer, découvrir, réparer, chercher, courir, cacher, emballer'),
-            ('Adjectifs', 'mystérieux, immense, minuscule, inquiet, magique, brillant'),
-            ('Émotions', 'paniqué, surpris, découragé, soulagé, heureux, fier'),
-            ('Marqueurs de relation', 'soudain, ensuite, quelques minutes plus tard, pendant ce temps, finalement')]
-    c0 = 190; rh = 66
-    s = f"<rect x='1' y='1' width='{W-2}' height='{38+rh*len(rows)}' fill='#fff' stroke='{INK}' stroke-width='2'/>"
+    rows = [('Personnages', 'lutin, lutine, apprenti lutin, chef des lutins, père Noël, mère Noël, renne, bonhomme de neige, ours polaire, harfang des neiges'),
+            ('Moments', 'la veille de Noël, un matin glacial, une nuit étoilée, à minuit, le 1er décembre, pendant une tempête de neige'),
+            ('Lieux', 'atelier, village, forêt enneigée, entrepôt, traîneau, pôle Nord, écurie des rennes, salle d’emballage, montagne glacée, cheminée'),
+            ('Verbes', 'fabriquer, découvrir, réparer, chercher, courir, cacher, emballer, s’écrier, chuchoter, glisser, grimper, inventer, aider, sauver'),
+            ('Adjectifs', 'mystérieux, immense, minuscule, magique, brillant, scintillant, enneigé, gigantesque, étrange, courageux, rusé, joyeux'),
+            ('Émotions', 'paniqué, surpris, inquiet, découragé, nerveux, furieux, triste, déterminé, soulagé, heureux, fier, émerveillé'),
+            ('Marqueurs de relation', 'd’abord, au début, un jour, soudain, tout à coup, ensuite, puis, par la suite, après, aussi, d’ailleurs, par ailleurs, pendant ce temps, quelques minutes plus tard, heureusement, malheureusement, enfin, finalement')]
+    c0 = 190; fs = 15; lh = 21
+    corps, y = '', 39
+    for cat, ex in rows:
+        out = wrap(ex, fs, W - c0 - 30)
+        rh = max(66, len(out) * lh + 30)
+        corps += f"<line x1='1' y1='{y}' x2='{W-1}' y2='{y}' stroke='{INK}' stroke-width='1.4'/>"
+        cl = wrap(cat, fs, c0 - 26)
+        yc = y + rh / 2 + 6 - (len(cl) - 1) * lh / 2
+        for k, l in enumerate(cl):
+            corps += txt(16, yc + k * lh, l, fs, gras=True)
+        y0 = y + rh / 2 + 6 - (len(out) - 1) * lh / 2
+        for k, l in enumerate(out):
+            corps += txt(c0 + 14, y0 + k * lh, l, fs)
+        y += rh
+    s = f"<rect x='1' y='1' width='{W-2}' height='{y-1}' fill='#fff' stroke='{INK}' stroke-width='2'/>"
     s += f"<rect x='1' y='1' width='{W-2}' height='38' fill='{GRIS}' stroke='{INK}' stroke-width='2'/>"
     s += txt(c0 / 2, 27, 'Catégorie', 17, 'middle', True) + txt(c0 + (W - c0) / 2, 27, 'Exemples', 17, 'middle', True)
-    y = 39
-    for cat, ex in rows:
-        s += f"<line x1='1' y1='{y}' x2='{W-1}' y2='{y}' stroke='{INK}' stroke-width='1.4'/>"
-        s += txt(16, y + rh / 2 + 6, cat, 15, gras=True)
-        # retour à la ligne des exemples
-        mots, cur, out = ex.split(' '), '', []
-        for m in mots:
-            e = (cur + ' ' + m).strip()
-            if larg(e, 15) > W - c0 - 30 and cur: out.append(cur); cur = m
-            else: cur = e
-        out.append(cur)
-        y0 = y + rh / 2 + 6 - (len(out) - 1) * 10
-        for k, l in enumerate(out):
-            s += txt(c0 + 14, y0 + k * 20, l, 15)
-        y += rh
-    s += f"<line x1='{c0}' y1='1' x2='{c0}' y2='{y}' stroke='{INK}' stroke-width='1.4'/>"
+    s += corps + f"<line x1='{c0}' y1='1' x2='{c0}' y2='{y}' stroke='{INK}' stroke-width='1.4'/>"
     save('banque', y + 2, s)
 
 
@@ -136,7 +135,7 @@ def page_lignee(n=24, pas=31):
 
 
 if __name__ == '__main__':
-    choix(); banque(); page_lignee()
+    choix(); page_lignee()
 
 
 def lettre():
@@ -333,4 +332,4 @@ def plan_tableau():
 
 
 if __name__ == '__main__':
-    plan_tableau()
+    plan_tableau(); banque()
