@@ -7,7 +7,7 @@
 - **Évaluation :** les 4 critères du MEQ (comprendre, interpréter, réagir, apprécier). Le barème est sur 26, comme dans « Un réveillon pas comme les autres ».
 - **Format :** copies du texte, du questionnaire et du corrigé du 3e cycle de la créatrice.
 
-**À vérifier avant la mise en ligne :** les nombres qui peuvent changer avec les saisons (nombre de coupes Stanley, dernière conquête, nombre de places au Centre Bell). Le texte ne contient ni logo ni marque de l'équipe.
+**Vérification des faits (novembre 2026) :** chaque information du texte a été vérifiée dans les sources inscrites au bas du texte. Les Canadiens n'ont pas gagné la coupe Stanley en 2026 (la coupe a été remportée par les Hurricanes de la Caroline) : le total de 24 coupes et la dernière en 1993 sont donc toujours exacts. À revérifier à chaque nouvelle saison. Le texte ne contient ni logo ni marque de l'équipe.
 
 ---
 
@@ -30,7 +30,7 @@
 
 ④ Le chandail des Canadiens est bleu, blanc et rouge. C'est pourquoi on surnomme l'équipe « le Tricolore ». Les partisans l'appellent aussi « les Glorieux », en raison de ses nombreuses victoires, ou tout simplement « le CH ».
 
-⑤ Dans le vestiaire, une phrase est écrite au mur depuis des décennies : « Nos bras meurtris vous tendent le flambeau, à vous toujours de le porter bien haut. » Elle est tirée d'un poème écrit pendant la Première Guerre mondiale. Elle rappelle aux joueurs qu'ils doivent être fiers de porter le chandail et continuer le travail de ceux qui l'ont porté avant eux.
+⑤ Dans le vestiaire, une phrase est écrite au mur depuis 1952 : « Nos bras meurtris vous tendent le flambeau, à vous toujours de le porter bien haut. » Elle est tirée du poème *Au champ d'honneur* (*In Flanders Fields*), écrit en 1915 par John McCrae, un médecin militaire canadien, pendant la Première Guerre mondiale. Elle rappelle aux joueurs qu'ils doivent être fiers de porter le chandail et continuer le travail de ceux qui l'ont porté avant eux.
 
 > **Le savais-tu?**
 > Plusieurs personnes croient que le « H » du logo veut dire « Habitants ». C'est faux! Le C et le H signifient « Club de hockey ». Le surnom anglais « Habs », qui vient du mot « Habitants », est toutefois resté.
@@ -39,11 +39,11 @@
 
 ⑥ Pendant 70 ans, de 1926 à 1996, les Canadiens ont joué au Forum de Montréal. Les joueurs y ont remporté de nombreux championnats. Pour plusieurs amateurs, le Forum était un véritable temple du hockey.
 
-⑦ En mars 1996, l'équipe déménage dans un nouvel amphithéâtre, aujourd'hui appelé le Centre Bell. Avec plus de 21 000 places, c'est le plus grand aréna de la LNH. Les soirs de match, la foule chante, crie et encourage ses joueurs. On y croise aussi Youppi!, la mascotte orange et poilue de l'équipe.
+⑦ En mars 1996, l'équipe déménage dans un nouvel amphithéâtre, aujourd'hui appelé le Centre Bell. Avec plus de 21 000 places, c'est l'un des plus grands arénas de hockey au monde. Les soirs de match, la foule chante, crie et encourage ses joueurs. On y croise aussi Youppi!, la mascotte orange et poilue de l'équipe depuis 2005. Avant, Youppi! était la mascotte des Expos, l'ancienne équipe de baseball de Montréal.
 
 ### 4. Des joueurs de légende
 
-⑧ Maurice Richard, surnommé « le Rocket », est sans doute le joueur le plus célèbre de l'histoire de l'équipe. Pendant la saison 1944-1945, il devient le premier joueur à marquer 50 buts en 50 matchs. Aujourd'hui, le meilleur marqueur de la LNH reçoit chaque année le trophée Maurice-Richard.
+⑧ Maurice Richard, surnommé « le Rocket », est sans doute le joueur le plus célèbre de l'histoire de l'équipe. Pendant la saison 1944-1945, il devient le premier joueur à marquer 50 buts en 50 matchs. Depuis 1999, le meilleur buteur de la saison de la LNH reçoit chaque année le trophée Maurice-Richard.
 
 ⑨ D'autres grands joueurs ont aussi marqué l'histoire du Tricolore. Jean Béliveau, un capitaine respecté pour son talent et son élégance, a remporté dix fois la coupe Stanley. Henri Richard, le frère cadet de Maurice, l'a gagnée onze fois : c'est un record! Plus tard, Guy Lafleur, surnommé « le Démon blond », a fait lever les foules avec sa vitesse et ses buts spectaculaires.
 
@@ -57,7 +57,20 @@
 
 ⑫ Depuis plus de cent ans, les Canadiens de Montréal font rêver les amateurs de hockey. Leur histoire est remplie d'exploits, de légendes et de moments inoubliables. Et toi, as-tu déjà assisté à un match ou porté fièrement le chandail bleu, blanc, rouge?
 
-*(Environ 650 mots, au niveau du 3e cycle.)*
+---
+**Sources**
+- L'Encyclopédie canadienne, « Canadiens de Montréal » : https://www.thecanadianencyclopedia.ca/fr/article/canadiens-de-montreal
+- Canadiens de Montréal (site officiel, LNH), « Youppi! » : https://www.nhl.com/canadiens/fans/youppi
+- LNH, « Le roi Henri Richard » : https://www.nhl.com/fr/canadiens/news/le-roi-henri-richard
+- Ville de Montréal, Mémoires des Montréalais, « Le Forum de Montréal » : https://ville.montreal.qc.ca/memoiresdesmontrealais/le-forum-de-montreal
+- Parcs Canada, « Lieu historique national du Forum de Montréal » : https://pc.gc.ca/apps/dfhd/page_nhs_eng.aspx?id=1817
+- L'Encyclopédie canadienne, « Au champ d'honneur » : https://www.thecanadianencyclopedia.ca/fr/article/au-champ-dhonneur
+- L'Encyclopédie canadienne, « Maurice "Rocket" Richard Trophy » : https://thecanadianencyclopedia.ca/en/article/maurice-rocket-richard-trophy
+- L'Encyclopédie canadienne, « Guy Damien Lafleur » : https://www.thecanadianencyclopedia.ca/fr/article/guy-damien-lafleur
+
+*(Pour la fiche imprimée, on peut afficher une version courte : « Sources : L'Encyclopédie canadienne ; site officiel des Canadiens de Montréal (LNH) ; Ville de Montréal, Mémoires des Montréalais ; Parcs Canada. Consultées en novembre 2026. »)*
+
+*(Environ 680 mots, au niveau du 3e cycle.)*
 
 ---
 
@@ -81,7 +94,7 @@
 11. **Quel** joueur ou **quel** fait présenté dans le texte t'a le plus impressionné? Explique pourquoi en faisant un lien avec ta vie ou tes expériences. *(3 points)*
 
 ### Critère 4 : Apprécier (3 points)
-12. **Est-ce que** l'encadré « Le savais-tu? » est utile dans ce texte? Donne ton opinion et justifie-la. *(3 points)*
+12. Selon toi, l'auteur réussit-il à montrer que les Canadiens de Montréal sont « une équipe de légende »? Donne ton opinion et appuie-la sur deux éléments du texte. *(3 points)*
 
 ---
 
@@ -97,7 +110,7 @@
 9. Pistes : les anciens joueurs passent la responsabilité aux nouveaux ; les joueurs actuels doivent être fiers et continuer à faire gagner l'équipe.
 10. Pistes : 24 coupes Stanley, plus que toute autre équipe ; cinq coupes de suite de 1956 à 1960, un exploit unique. Deux informations sont attendues.
 11. Réponse personnelle : un joueur ou un fait nommé, une justification et un lien précis avec sa vie.
-12. Réponse personnelle : une opinion claire (oui ou non) et une justification liée au contenu de l'encadré (il corrige une erreur répandue, il apprend un fait étonnant, il attire l'attention, etc.).
+12. Réponse personnelle : une opinion claire (oui, non ou en partie) appuyée sur deux éléments précis du texte (par exemple les 24 coupes Stanley, les cinq coupes de suite, les joueurs comme Maurice Richard ou Henri Richard, le Forum vu comme un temple du hockey, la fidélité des partisans). 1 point pour l'opinion, 1 point par élément bien expliqué.
 
 ## Barème
 | Critère | Questions | Points |
