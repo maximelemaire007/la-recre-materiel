@@ -12,6 +12,7 @@ Dossier : https://www.canva.com/folder/FAHb7_j7zjI
 - Premier cahier de l'élève (11 pages) : https://www.canva.com/design/DAHb72wtpVY/edit
 - « Cahier au propre », version réorganisée par la créatrice (original, non modifié) : https://www.canva.com/design/DAHb8Brnjhw/edit
 - Copie de travail de cette version, avec la banque de mots enrichie et modifiable (p. 4) : https://www.canva.com/design/DAHb8ZYQ8TM/edit
+- Aperçu boutique (1080 × 1350, copie de l’aperçu de 3e année) : https://www.canva.com/design/DAHb8rnhNd8/edit (image : `apercus/apercu-boutique.png`)
 
 ## Dessins (`dessins/cahier.py`)
 Lettre, choix, zones à lignes, banque de mots, plan en tableau (`plan-debut`, `plan-suite`), liste « Je me relis », ligne de titre et lignes d'écriture. Toutes les lignes sont pleines.
