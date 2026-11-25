@@ -136,7 +136,7 @@ def page_lignee(n=24, pas=31):
 
 
 if __name__ == '__main__':
-    plans(); choix(); banque(); page_lignee()
+    choix(); banque(); page_lignee()
 
 
 def lettre():
@@ -212,3 +212,125 @@ if __name__ == '__main__':
     zone('choix-pourquoi', 'J’ai choisi cette catastrophe parce que…', 3)
     zone('mes-mots', 'Mes mots à moi :', 5)
     relis(); titre()
+
+
+PAS = 30
+
+
+def bloc(y, num, titre, partie, rangees):
+    """Une partie du plan (un paragraphe) : bandeau gris, puis des rangées (étiquette, nb de lignes)."""
+    h = 36 + 12 + sum(max(n, 1) for _, n in rangees) * PAS + 10
+    s = f"<rect x='1' y='{y}' width='{W-2}' height='{h}' rx='14' fill='#fff' stroke='{INK}' stroke-width='2.2'/>"
+    s += f"<path d='M1 {y+14} a14 14 0 0 1 14 -14 H{W-15} a14 14 0 0 1 14 14 V{y+36} H1 Z' fill='{GRIS}' stroke='{INK}' stroke-width='2.2'/>"
+    s += f"<circle cx='26' cy='{y+18}' r='13' fill='{INK}'/>" + txt(26, y + 24, str(num), 16, 'middle', fill='#fff')
+    s += txt(48, y + 25, titre, 18, gras=True)
+    s += txt(W - 16, y + 25, partie, 15, 'end')
+    yy = y + 36 + 12 + PAS - 8
+    for etiq, n in rangees:
+        if n == 0:  # sous-titre sans ligne
+            s += txt(18, yy, etiq, 16, gras=True); yy += PAS; continue
+        x0 = 34 if etiq in ('Quand :', 'Qui :', 'Où :', 'Fait quoi :', 'Voulait :') else 18
+        x1 = x0 + larg(etiq, 15) + 8
+        s += txt(x0, yy, etiq, 15, gras=True)
+        s += f"<line x1='{x1}' y1='{yy+3}' x2='{W-18}' y2='{yy+3}' stroke='{LIGNE}' stroke-width='1.2'/>"
+        for k in range(1, n):
+            s += f"<line x1='18' y1='{yy+3+k*PAS}' x2='{W-18}' y2='{yy+3+k*PAS}' stroke='{LIGNE}' stroke-width='1.2'/>"
+        yy += n * PAS
+    return s, h
+
+
+def plan():
+    """Plan du schéma narratif sur une page : un encadré par paragraphe, puis l'approbation de l'enseignant."""
+    s, y = '', 0
+    for num, titre, partie, rangees in [
+            (1, 'Le début', '1er paragraphe', [('Situation initiale', 0), ('Quand :', 1), ('Qui :', 1), ('Où :', 1), ('Fait quoi :', 1), ('Voulait :', 1)]),
+            (2, 'Le milieu', '2e paragraphe', [('Élément déclencheur :', 2), ('Péripétie 1 :', 2), ('Péripétie 2 :', 2), ('Dénouement :', 2)]),
+            (3, 'La fin', '3e paragraphe', [('Situation finale :', 2)])]:
+        b, h = bloc(y, num, titre, partie, rangees); s += b; y += h + 12
+    ha = 74
+    s += f"<rect x='1' y='{y}' width='{W-2}' height='{ha}' rx='14' fill='{GRIS_P}' stroke='{INK}' stroke-width='2.2'/>"
+    s += txt(18, y + 28, 'Mon plan est accepté par mon enseignant ou mon enseignante :', 15, gras=True)
+    bx = 18
+    for lab in ['Oui, tu peux écrire ton brouillon!', 'À retravailler']:
+        s += f"<rect x='{bx}' y='{y+42}' width='16' height='16' fill='#fff' stroke='{INK}' stroke-width='1.6'/>"
+        s += txt(bx + 24, y + 56, lab, 14); bx += larg(lab, 14) + 60
+    s += txt(W - 170, y + 56, 'Initiales :', 14)
+    s += f"<line x1='{W-100}' y1='{y+58}' x2='{W-18}' y2='{y+58}' stroke='{INK}' stroke-width='1.4'/>"
+    save('plan', y + ha + 2, s)
+
+
+
+GR = '#8C8C8C'  # traits du tableau (gris)
+C1 = 220        # largeur de la colonne des questions
+
+
+def wrap(t, fs, maxw):
+    out, cur = [], ''
+    for m in t.split(' '):
+        e = (cur + ' ' + m).strip()
+        if larg(e, fs) > maxw and cur: out.append(cur); cur = m
+        else: cur = e
+    return out + [cur]
+
+
+def tableau(y, titre, rangees, pas=30):
+    """Tableau d'une partie du schéma narratif. rangees : (question, précision, nb de lignes, émotion?)."""
+    s = f"<rect x='1' y='{y}' width='{W-2}' height='38' fill='{GRIS}'/>" + txt(14, y + 26, titre, 19, gras=True)
+    top = y + 38
+    for q, aide, n, emo in rangees:
+        h = n * pas + 14 + (pas + 4 if emo else 0)
+        s += f"<line x1='1' y1='{top}' x2='{W-1}' y2='{top}' stroke='{GR}' stroke-width='1.6'/>"
+        yy = top + 26
+        s += txt(12, yy, q, 16, gras=True)
+        for l in (wrap(aide, 13, C1 - 22) if aide else []):
+            yy += 18; s += txt(12, yy, l, 13)
+        s += lignes(C1 + 12, top + 4, W - C1 - 24, n, pas)
+        if emo:
+            ye = top + n * pas + 14
+            s += f"<line x1='{C1}' y1='{ye}' x2='{W-1}' y2='{ye}' stroke='{GR}' stroke-width='1.2'/>"
+            lab = 'Émotion du personnage :'
+            s += txt(C1 + 12, ye + pas - 6, lab, 14, gras=True)
+            s += f"<line x1='{C1 + 20 + larg(lab, 14)}' y1='{ye+pas-3}' x2='{W-12}' y2='{ye+pas-3}' stroke='{LIGNE}' stroke-width='1.2'/>"
+        top += h
+    s += f"<line x1='{C1}' y1='{y+38}' x2='{C1}' y2='{top}' stroke='{GR}' stroke-width='1.6'/>"
+    s += f"<rect x='1' y='{y}' width='{W-2}' height='{top-y}' fill='none' stroke='{GR}' stroke-width='2'/>"
+    return s, top - y
+
+
+def approbation(y):
+    ha = 74
+    s = f"<rect x='1' y='{y}' width='{W-2}' height='{ha}' rx='14' fill='{GRIS_P}' stroke='{INK}' stroke-width='2.2'/>"
+    s += txt(18, y + 28, 'Mon plan est accepté par mon enseignant ou mon enseignante :', 15, gras=True)
+    bx = 18
+    for lab in ['Oui, tu peux écrire ton brouillon!', 'À retravailler']:
+        s += f"<rect x='{bx}' y='{y+42}' width='16' height='16' fill='#fff' stroke='{INK}' stroke-width='1.6'/>"
+        s += txt(bx + 24, y + 56, lab, 14); bx += larg(lab, 14) + 60
+    s += txt(W - 170, y + 56, 'Initiales :', 14)
+    s += f"<line x1='{W-100}' y1='{y+58}' x2='{W-18}' y2='{y+58}' stroke='{INK}' stroke-width='1.4'/>"
+    return s, ha
+
+
+def plan_tableau():
+    """Plan en tableau (questions à gauche, lignes à droite), sur deux pages."""
+    s, h = tableau(0, 'Le début (1er paragraphe) : la situation initiale', [
+        ('Quand?', 'Le moment de l’histoire', 3, False),
+        ('Qui?', 'Le nom des personnages, leurs caractéristiques physiques et leurs traits de caractère', 6, False),
+        ('Où?', 'Le lieu de l’histoire', 3, False),
+        ('Fait quoi?', 'Ce que fait le personnage principal', 4, False),
+        ('Voulait?', 'Ce que le personnage principal veut faire', 4, False)], pas=31)
+    save('plan-debut', h + 2, s)
+    s, h = tableau(0, 'Le milieu (2e paragraphe)', [
+        ('Mais…', 'L’élément déclencheur : la catastrophe arrive!', 3, False),
+        ('Péripétie 1', 'Les personnages essaient de régler le problème, mais ça ne fonctionne pas.', 3, True),
+        ('Péripétie 2', 'Ils essaient autre chose, ou une nouvelle difficulté arrive.', 3, True),
+        ('Dénouement', 'La solution qui fonctionne!', 3, True)], pas=27)
+    y = h + 14
+    b, h2 = tableau(y, 'La fin (3e paragraphe)', [
+        ('Finalement…', 'La situation finale : comment se termine ton histoire?', 3, False)], pas=27)
+    s += b; y += h2 + 14
+    b, ha = approbation(y); s += b
+    save('plan-suite', y + ha + 2, s)
+
+
+if __name__ == '__main__':
+    plan_tableau()
