@@ -307,7 +307,7 @@ Bandeau : ÉTAPE 6 / *je teste*
 - **Page 2 :**
   1. L'eau glacée refroidit le corps très vite.
   2. Sa température baisserait, et il pourrait tomber malade ou mourir de froid.
-  3. Réponse personnelle (à vérifier pendant l'enquête).
+  3. Réponse personnelle; l'enquête permettra de la confirmer ou non.
 - **Page 4, idées de départ :** il a une couche de graisse, sa peau, son pelage, il bouge…
 - **Page 5, variables :**
   - je change la présence de la couche de graisse ;
