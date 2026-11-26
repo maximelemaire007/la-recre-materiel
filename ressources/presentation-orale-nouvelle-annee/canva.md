@@ -24,3 +24,7 @@ Refaite à partir de l'ancien document de la créatrice (« Première présentat
 ## Fichiers
 - `presentation-orale-nouvelle-annee.pdf` (5 pages, Lettre).
 - `dessins/` : icône du micro (trait) et son script.
+
+## Aperçu boutique
+- Dossier Canva du projet : https://www.canva.com/folder/FAHcB3jdu5c
+- Aperçu (1080 × 1350, copie de l'aperçu « Présentation orale des fêtes ») : https://www.canva.com/design/DAHcBzRWbfE/edit (image : `apercus/apercu-boutique.png`)
