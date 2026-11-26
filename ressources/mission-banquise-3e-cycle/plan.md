@@ -1,6 +1,6 @@
 # Mission banquise : le secret des animaux du froid
 
-Projet de science et technologie clé en main, sur le modèle de Mission glaçon. Première ébauche, à valider par la créatrice.
+Projet de science et technologie clé en main, sur le modèle de Mission glaçon. Plan à valider par la créatrice.
 
 ## Le besoin, reformulé
 
@@ -18,23 +18,50 @@ Projet de science et technologie clé en main, sur le modèle de Mission glaçon
 - **Format :**
   - Lettre (8,5 × 11 po), portrait, impression noir et blanc possible.
   - Style maison des modèles Mission glaçon : carnet de l'élève et guide de l'enseignant.
-- **Thème :** hiver et animaux polaires, sans lien avec Noël, donc utilisable de décembre à mars. *(À confirmer : le titre du PDF parle d'une « expérience de Noël ».)*
+- **Thème :** hiver et animaux polaires, **aucun lien avec Noël** (aucun élément de Noël dans les textes ni dans les illustrations).
 
-## Liens avec le Programme de formation de l'école québécoise (à vérifier)
+## Liens avec le Programme de formation de l'école québécoise
 
-> ⚠️ Comme pour Mission glaçon, **la formulation exacte et le cycle de chaque énoncé de la Progression des apprentissages doivent être vérifiés** avant la mise en vente. On présente l'activité comme une situation qui *mobilise* ces savoirs, sans dire que chaque notion est propre à la 5e ou à la 6e année.
+Vérifiés dans les documents officiels du ministère de l'Éducation (novembre 2026) :
+- *Programme de formation de l'école québécoise, Science et technologie, primaire* : https://cdn-contenu.quebec.ca/cdn-contenu/education/pfeq/primaire/programmes/PFEQ-science-technologie-primaire.pdf
+- *Progression des apprentissages, Science et technologie, primaire* (2009) : https://cdn-contenu.quebec.ca/cdn-contenu/education/pfeq/primaire/progressions-apprentissages/PFEQ-progression-apprentissages-science-technologie-primaire.pdf
+
+Légende de la Progression des apprentissages :
+- **→** : l'élève apprend à le faire avec l'intervention de l'enseignante ou de l'enseignant.
+- **★** : l'élève le fait par lui-même à la fin de l'année scolaire.
+- **réinvestissement** : l'élève réutilise cette connaissance.
 
 **Compétences disciplinaires**
 1. Proposer des explications ou des solutions à des problèmes d'ordre scientifique ou technologique.
 2. Mettre à profit les outils, objets et procédés de la science et de la technologie.
 3. Communiquer à l'aide des langages utilisés en science et en technologie.
 
-**Savoirs essentiels mobilisés**
-- **Univers vivant :** les caractéristiques physiques qui témoignent de l'adaptation d'un animal à son milieu (la couche de graisse du phoque) ; le maintien de la température du corps chez les mammifères.
-- **Univers matériel, énergie :** la transmission de la chaleur ; les isolants et les conducteurs thermiques.
-- **Techniques et instrumentation :** l'utilisation du thermomètre et du chronomètre.
-- **Démarches :** la démarche d'investigation (hypothèse, variables, expérience, analyse) et la démarche de conception (cahier des charges, prototype, test, amélioration).
-- **Langages :** le tableau de résultats, le diagramme à ligne brisée et le schéma annoté.
+**Énoncés de la Progression des apprentissages**
+
+| Univers | Énoncé (texte officiel) | 5e | 6e |
+|---|---|---|---|
+| Univers matériel – Énergie, 2. Transmission de l'énergie | a. Distinguer les substances qui sont des conducteurs thermiques de celles qui sont des isolants thermiques | → | ★ |
+| Univers matériel – Énergie, 3. Transformation de l'énergie | c. Expliquer les propriétés isolantes de diverses substances (ex. : polystyrène, laine minérale, paille) | → | ★ |
+| Univers vivant – Matière, 1. Caractéristiques du vivant | b. Décrire les activités liées au métabolisme des êtres vivants (transformation de l'énergie, croissance, entretien des systèmes, maintien de la température corporelle) | → | ★ |
+| Univers vivant – Systèmes et interaction, 1. Interaction entre les organismes vivants et leur milieu | a. Décrire des caractéristiques physiques qui témoignent de l'adaptation d'un animal à son milieu | réinvestissement | réinvestissement |
+| Univers vivant – Systèmes et interaction, 1. Interaction entre les organismes vivants et leur milieu | f. Expliquer des adaptations d'animaux et de végétaux permettant d'augmenter leurs chances de survie (ex. : mimétisme, camouflage) | réinvestissement | réinvestissement |
+| Univers matériel – Techniques et instrumentation, 1. Utilisation d'instruments de mesure simples | a. Utiliser adéquatement des instruments de mesure simples (règles, compte-gouttes, cylindre gradué, balance, thermomètre, chronomètre) | → | ★ |
+| Univers matériel – Langage approprié, 2. Conventions et modes de représentation | a. Communiquer à l'aide des modes de représentation adéquats dans le respect des règles et des conventions propres à la science et à la technologie (symboles, graphiques, tableaux, dessins, croquis, normes et standardisation) | → | ★ |
+
+**Stratégies** (texte officiel, communes à tous les cycles) :
+- **Exploration :**
+  - Formuler des questions.
+  - Émettre des hypothèses.
+  - Anticiper les résultats de sa démarche.
+  - Prendre en considération les contraintes en jeu dans la résolution d'un problème ou la réalisation d'un objet (ex. : cahier des charges, ressources disponibles, temps alloué).
+- **Instrumentation :**
+  - Recourir au design technique pour illustrer une solution (ex. : schéma, croquis, dessin technique).
+  - Recourir à des outils de consignation (ex. : schéma, graphique, protocole, tenue d'un carnet ou d'un journal de bord).
+- **Communication :**
+  - Organiser les données en vue de les présenter (ex. : tableau, diagramme, graphique).
+  - Confronter différentes explications ou solutions possibles à un problème pour en évaluer la pertinence (ex. : plénière).
+
+Les énoncés sur l'adaptation des animaux (1er et 2e cycles) sont **réinvestis** au 3e cycle. Les énoncés sur les isolants thermiques, le métabolisme (maintien de la température corporelle) et les instruments de mesure sont **propres au 3e cycle**.
 
 ## Matériel (par équipe de 3 ou 4)
 
@@ -313,4 +340,3 @@ Par élève ou par équipe. Cotes : ✔ acquis · ~ en voie · ✘ à revoir.
 - **Le béluga :** sa couche de lard l'isole et lui sert de réserve d'énergie. Aucune épaisseur n'est donnée dans le texte, faute de chiffre propre à la population du Saint-Laurent. Sources :
   - Baleines en direct, fiche « Béluga » : https://baleinesendirect.org/en/discover/the-species-of-the-st-lawrence/the-13-species/beluga/
   - Faune et flore du pays, fiche « Béluga » : https://www.hww.ca/assets/pdfs/factsheets/beluga-whale-fr.pdf
-- **À vérifier encore :** la formulation exacte des énoncés de la Progression des apprentissages.
