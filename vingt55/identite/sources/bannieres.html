@@ -1,0 +1,66 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#131A2E;--navy2:#1B2440;--red:#E5303A;--paper:#F7F5F1}
+*{box-sizing:border-box;margin:0}
+body{font-family:Outfit,sans-serif;background:#999;padding:20px;display:flex;flex-direction:column;gap:20px}
+.cv{width:1640px;height:607px;position:relative;overflow:hidden;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.navy{background:var(--navy)}
+.light{background:var(--paper)}
+.big55{position:absolute;font-weight:800;font-size:900px;letter-spacing:-.06em;line-height:1;color:transparent}
+.navy .big55{-webkit-text-stroke:2px rgba(247,245,241,.07)}
+.light .big55{-webkit-text-stroke:2px rgba(19,26,46,.07)}
+.wm{display:flex;align-items:flex-start;position:relative;transform:scale(.62);transform-origin:center;margin:-60px 0 -70px}
+.vingt{font-weight:700;font-size:250px;line-height:1;letter-spacing:-.045em;position:relative}
+.navy .vingt{color:#F7F5F1}.light .vingt{color:var(--navy)}
+.n55{font-weight:800;font-size:250px;line-height:1;letter-spacing:-.05em;color:var(--red);margin-left:6px;margin-top:62px}
+.sub{position:absolute;left:12px;top:230px;font-weight:800;font-size:32px;letter-spacing:.15em;color:var(--red);text-transform:uppercase}
+.ii{position:relative;display:inline-block}
+.dot{position:absolute;border-radius:50%;background:var(--red);left:calc(50% + var(--dx,6.2px));top:38px;width:40px;height:40px;transform:translateX(-50%)}
+.waves{position:absolute;left:calc(50% + var(--dx,6.2px));top:-12px;transform:translateX(-50%)}
+.rule{width:64px;height:4px;background:var(--red);margin:34px 0 26px;border-radius:2px}
+.tag{font-weight:500;font-size:44px;letter-spacing:-.01em}
+.navy .tag{color:#F7F5F1}.light .tag{color:var(--navy)}
+.meta{display:flex;align-items:center;gap:22px;margin-top:26px;font-weight:600;font-size:20px;letter-spacing:.22em;text-transform:uppercase}
+.navy .meta{color:rgba(247,245,241,.6)}.light .meta{color:rgba(19,26,46,.6)}
+.live{display:flex;align-items:center;gap:10px;background:var(--red);color:#F7F5F1;padding:9px 16px 9px 14px;border-radius:4px;letter-spacing:.16em}
+.live i{width:10px;height:10px;border-radius:50%;background:#F7F5F1;display:block}
+.band{position:absolute;left:0;right:0;bottom:0;height:78px;background:var(--navy);display:flex;align-items:center;justify-content:center;gap:0}
+.band .l{background:var(--red);color:#F7F5F1;height:100%;display:flex;align-items:center;gap:12px;padding:0 30px;font-weight:700;font-size:26px;letter-spacing:.14em}
+.band .l i{width:12px;height:12px;border-radius:50%;background:#F7F5F1;display:block}
+.band .r{color:#F7F5F1;font-weight:500;font-size:30px;padding:0 30px}
+.bar{position:absolute;left:0;right:0;bottom:0;height:8px;background:var(--red)}
+.mt{position:absolute;left:10px;top:-6px;font-weight:600;font-size:33px;letter-spacing:.24em;color:var(--red);text-transform:uppercase;line-height:1;white-space:nowrap}
+</style></head><body>
+
+<!-- Version A : marine -->
+<div class="cv navy" id="bA">
+  <div class="big55" style="left:-180px;top:-150px">55</div>
+  <div class="big55" style="right:-200px;top:-130px">55</div>
+  <div class="wm">
+    <div class="vingt">v<span class="ii">&#x131;<span class="dot"></span><svg class="waves" width="140" height="140" viewBox="0 0 140 140" fill="none" stroke="#E5303A" stroke-width="7" stroke-linecap="round"><path d="M43.1 43.1 A38 38 0 0 1 96.9 43.1"/><path d="M30.4 30.4 A56 56 0 0 1 109.6 30.4" stroke-width="6"/></svg></span>ngt</div>
+    <div class="n55">55</div>
+    <div class="sub">Communauté</div>
+  </div>
+  <div class="rule"></div>
+  <div class="tag">Votre information locale et régionale, ici.</div>
+  <div class="meta"><span class="live"><i></i>En direct 24/7</span><span>Drummondville · Centre-du-Québec</span></div>
+  <div class="bar"></div>
+</div>
+
+<!-- Version B : claire avec bandeau -->
+<div class="cv light" id="bB">
+  <div class="big55" style="left:-180px;top:-170px">55</div>
+  <div class="big55" style="right:-200px;top:-150px">55</div>
+  <div style="margin-top:-90px;display:flex;flex-direction:column;align-items:center">
+    <div class="wm">
+      <div class="vingt" style="--dx:4.6px">v<span class="ii">&#x131;<span class="dot"></span><svg class="waves" width="140" height="140" viewBox="0 0 140 140" fill="none" stroke="#E5303A" stroke-width="7" stroke-linecap="round"><path d="M43.1 43.1 A38 38 0 0 1 96.9 43.1"/><path d="M30.4 30.4 A56 56 0 0 1 109.6 30.4" stroke-width="6"/></svg></span>ngt</div>
+      <div class="n55">55</div>
+    <div class="sub">Communauté</div>
+    </div>
+    <div class="meta" style="margin-top:44px">Drummondville · Centre-du-Québec · Sans complaisance ni compromis</div>
+  </div>
+  <div class="band"><div class="l"><i></i>EN DIRECT</div><div class="r">Votre information locale et régionale, ici.</div></div>
+</div>
+</body></html>

@@ -1,0 +1,119 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#131A2E;--red:#E5303A;--paper:#F7F5F1;--line:rgba(19,26,46,.12);--mute:rgba(19,26,46,.62)}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#888;font-family:Outfit,sans-serif;padding:20px}
+#poster{width:1800px;height:2700px;background:#FFFFFF;position:relative;overflow:hidden;color:var(--navy)}
+.top{background:var(--navy);color:#F7F5F1;padding:70px 110px 62px;position:relative}
+.top .kick{font-weight:600;font-size:26px;letter-spacing:.3em;text-transform:uppercase;color:var(--red)}
+.top h1{font-weight:700;font-size:86px;letter-spacing:-.03em;line-height:1.02;margin-top:18px}
+.top p{font-size:32px;font-weight:400;color:rgba(247,245,241,.72);margin-top:24px;max-width:1250px;line-height:1.4}
+.top .bar{position:absolute;left:0;right:0;bottom:0;height:10px;background:var(--red)}
+.sec{padding:0 110px}
+.lab{display:flex;align-items:center;gap:22px;margin:56px 0 28px}
+.lab b{font-weight:700;font-size:22px;letter-spacing:.3em;text-transform:uppercase}
+.lab span:not(.pill){flex:1;height:2px;background:var(--line)}
+.lab em{font-style:normal;font-weight:600;font-size:20px;letter-spacing:.18em;text-transform:uppercase;color:var(--mute)}
+.pill{background:var(--navy);color:#F7F5F1;padding:8px 16px;border-radius:4px;font-weight:700;font-size:20px;letter-spacing:.2em}
+.pill.red{background:var(--red)}
+.old{display:grid;grid-template-columns:1fr 1.5fr 1.5fr;gap:28px}
+.old .c{background:#FFFFFF;border:2px solid var(--line);border-radius:14px;height:300px;display:flex;align-items:center;justify-content:center;padding:26px;position:relative}
+.old .c img{max-width:100%;max-height:100%;object-fit:contain;filter:saturate(.85)}
+.old .c small{position:absolute;bottom:-34px;left:0;font-size:20px;color:var(--mute);font-weight:500}
+.hero{display:grid;grid-template-columns:1.35fr 1fr;gap:28px;margin-top:6px}
+.card{border-radius:14px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
+.card.l{background:#F7F5F1;border:2px solid var(--line);height:380px}
+.card.d{background:var(--navy);height:380px}
+/* wordmark */
+.wm{display:flex;align-items:flex-start;position:relative;flex:none;white-space:nowrap}
+.vingt{font-weight:700;font-size:250px;line-height:1;letter-spacing:-.045em;position:relative;color:var(--navy)}
+.d .vingt{color:#F7F5F1}
+.n55{font-weight:800;font-size:250px;line-height:1;letter-spacing:-.05em;color:var(--red);margin-left:6px;margin-top:62px}
+.sub{position:absolute;left:12px;top:230px;font-weight:800;font-size:32px;letter-spacing:.15em;color:var(--red);text-transform:uppercase}
+.ii{position:relative;display:inline-block}
+.dot{position:absolute;border-radius:50%;background:var(--red);left:calc(50% + 6.2px);top:38px;width:40px;height:40px;transform:translateX(-50%)}
+.waves{position:absolute;left:calc(50% + 6.2px);top:-12px;transform:translateX(-50%)}
+.why{display:grid;grid-template-columns:repeat(4,1fr);gap:28px;margin-top:34px}
+.why div{border-top:4px solid var(--red);padding-top:18px}
+.why h3{font-weight:700;font-size:28px;letter-spacing:-.01em}
+.why p{font-size:22px;line-height:1.4;color:var(--mute);margin-top:8px}
+.ban{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+.ban figure{position:relative}
+.ban img{width:100%;display:block;border-radius:12px;border:2px solid var(--line)}
+.ban figcaption,.pp figcaption{font-size:20px;color:var(--mute);font-weight:500;margin-top:10px}
+.bottom{display:grid;grid-template-columns:1.1fr 1fr;gap:60px;margin-top:6px}
+.pp{display:flex;gap:44px}
+.pp figure{display:flex;flex-direction:column;align-items:center}
+.pp img{width:290px;height:290px;border-radius:50%;box-shadow:0 0 0 2px var(--line)}
+.sw{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.sw div{border-radius:12px;height:150px;padding:18px;display:flex;flex-direction:column;justify-content:flex-end;font-weight:600;font-size:22px}
+.sw small{display:block;font-weight:500;font-size:18px;opacity:.75;margin-top:4px;letter-spacing:.05em}
+.type{margin-top:26px;border:2px solid var(--line);border-radius:12px;padding:22px 26px;display:flex;align-items:baseline;justify-content:space-between;background:#FFFFFF}
+.type b{font-weight:700;font-size:52px;letter-spacing:-.03em}
+.type span{font-size:20px;color:var(--mute)}
+.foot{position:absolute;left:110px;right:110px;bottom:56px;display:flex;justify-content:space-between;font-size:20px;color:var(--mute);letter-spacing:.12em;text-transform:uppercase;font-weight:600;border-top:2px solid var(--line);padding-top:22px}
+.mt{position:absolute;left:10px;top:-14px;font-weight:800;font-size:40px;letter-spacing:.16em;color:var(--red);text-transform:uppercase;line-height:1;white-space:nowrap}
+</style></head><body>
+<div id="poster">
+  <div class="top">
+    <div class="kick">Vingt55 · Identité visuelle</div>
+    <h1>Le même Vingt55,<br>en plus clair.</h1>
+    <p>Une modernisation tout en continuité. Les citoyens reconnaissent la marque au premier coup d'œil ; elle gagne en netteté, en cohérence et rappelle notre promesse : l'information en direct, 24/7.</p>
+    <div class="bar"></div>
+  </div>
+
+  <div class="sec">
+    <div class="lab"><span class="pill">Avant</span><b>Le logo actuel</b><span></span><em>3 versions différentes</em></div>
+    <div class="old">
+      <div class="c"><img src="1.webp"><small>Photo de profil Facebook</small></div>
+      <div class="c"><img src="2.png"><small>Version « Communauté »</small></div>
+      <div class="c"><img src="3.png"><small>Site web — « Journal web »</small></div>
+    </div>
+
+    <div class="lab" style="margin-top:80px"><span class="pill red">Après</span><b>Le nouveau logo</b><span></span><em>Une seule famille</em></div>
+    <div class="hero">
+      <div class="card l"><div class="wm" style="transform:scale(.88)">
+        <div class="vingt">v<span class="ii">&#x131;<span class="dot"></span><svg class="waves" width="140" height="140" viewBox="0 0 140 140" fill="none" stroke="#E5303A" stroke-width="7" stroke-linecap="round"><path d="M43.1 43.1 A38 38 0 0 1 96.9 43.1"/><path d="M30.4 30.4 A56 56 0 0 1 109.6 30.4" stroke-width="6"/></svg></span>ngt</div>
+        <div class="n55">55</div><div class="sub">Communauté</div></div></div>
+      <div class="card d"><div class="wm" style="transform:scale(.6)">
+        <div class="vingt">v<span class="ii">&#x131;<span class="dot"></span><svg class="waves" width="140" height="140" viewBox="0 0 140 140" fill="none" stroke="#E5303A" stroke-width="7" stroke-linecap="round"><path d="M43.1 43.1 A38 38 0 0 1 96.9 43.1"/><path d="M30.4 30.4 A56 56 0 0 1 109.6 30.4" stroke-width="6"/></svg></span>ngt</div>
+        <div class="n55" style="position:relative">55<span class="mt">Média</span></div></div></div>
+    </div>
+    <div class="why">
+      <div><h3>On garde l'essentiel</h3><p>« vingt » en minuscules, le 55 rouge décalé, « Communauté » sous le mot.</p></div>
+      <div><h3>Signal en direct</h3><p>Le point du « i » devient rouge et émet des ondes : l'info en direct, 24/7.</p></div>
+      <div><h3>Une seule police</h3><p>Fini le mélange de styles : une typographie moderne pour tout.</p></div>
+      <div><h3>Lisible partout</h3><p>Versions claire et foncée, du grand format à la petite icône.</p></div>
+    </div>
+
+    <div class="lab" style="margin-top:64px"><b>Bannières Facebook</b><span></span><em>1640 × 607 px</em></div>
+    <div class="ban">
+      <figure><img src="banA.png"><figcaption>Version A — marine</figcaption></figure>
+      <figure><img src="banB.png"><figcaption>Version B — claire, avec le bandeau « En direct »</figcaption></figure>
+    </div>
+
+    <div class="bottom">
+      <div>
+        <div class="lab" style="margin-top:56px"><b>Photos de profil</b><span></span></div>
+        <div class="pp">
+          <figure><img src="pA.png"><figcaption>Version A — marine</figcaption></figure>
+          <figure><img src="pB.png"><figcaption>Version B — claire</figcaption></figure>
+        </div>
+      </div>
+      <div>
+        <div class="lab" style="margin-top:56px"><b>Couleurs &amp; police</b><span></span></div>
+        <div class="sw">
+          <div style="background:#131A2E;color:#F7F5F1">Marine<small>#131A2E</small></div>
+          <div style="background:#E5303A;color:#F7F5F1">Rouge<small>#E5303A</small></div>
+          <div style="background:#F7F5F1;color:#131A2E;border:2px solid var(--line)">Crème<small>#F7F5F1</small></div>
+        </div>
+        <div class="type"><b>Outfit</b><span>Gras · Semi-gras · Régulier</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="foot"><span>Communauté Vingt55 · Drummondville, Centre-du-Québec</span><span>Proposition · Novembre 2026</span></div>
+</div>
+</body></html>

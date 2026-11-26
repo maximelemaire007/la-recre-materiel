@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8">
+<title>Gabarit Instagram Vingt55</title>
+<link rel="stylesheet" href="fonts/outfit.css">
+<style>
+/* Gabarit de publication Instagram Vingt55 — 1080 x 1350 (format 4:5)
+   Couleurs : marine #131A2E, rouge #E5303A, crème #F7F5F1 — police Outfit */
+:root{--navy:#131A2E;--red:#E5303A;--cream:#F7F5F1}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#888;font-family:Outfit,sans-serif;padding:20px}
+#post{width:1080px;height:1350px;position:relative;overflow:hidden;background:var(--navy)}
+.photo{position:absolute;left:0;top:0;width:1080px;height:800px;background-size:cover;background-position:center}
+.photo::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(19,26,46,0) 55%,rgba(19,26,46,.55) 85%,rgba(19,26,46,1) 100%)}
+.tag{position:absolute;left:64px;top:742px;z-index:2;display:flex;align-items:center;gap:12px;background:var(--red);color:var(--cream);
+  font-weight:800;font-size:24px;letter-spacing:.16em;text-transform:uppercase;padding:14px 22px;border-radius:6px}
+.tag i{width:11px;height:11px;border-radius:50%;background:var(--cream);display:block}
+.panel{position:absolute;left:0;right:0;top:800px;bottom:0;padding:62px 64px 0}
+h1{color:var(--cream);font-weight:800;font-size:66px;line-height:1.06;letter-spacing:-.02em;text-wrap:balance}
+h1 em{font-style:normal;color:var(--red)}
+.foot{position:absolute;left:64px;right:64px;bottom:58px;display:flex;align-items:flex-end;justify-content:space-between}
+.cta{color:rgba(247,245,241,.75);font-weight:600;font-size:24px;letter-spacing:.14em;text-transform:uppercase;display:flex;align-items:center;gap:14px}
+.cta b{color:var(--cream);font-weight:800}
+.cta span{width:40px;height:3px;background:var(--red);display:block}
+.logo{height:92px}
+.bar{position:absolute;left:0;right:0;bottom:0;height:12px;background:var(--red)}
+/* Version crème : fond crème, titre marine, logo couleur */
+#post.creme{background:var(--cream)}
+#post.creme .photo::after{background:linear-gradient(180deg,rgba(247,245,241,0) 55%,rgba(247,245,241,.55) 85%,rgba(247,245,241,1) 100%)}
+#post.creme h1{color:var(--navy)}
+#post.creme .cta{color:rgba(19,26,46,.7)}
+#post.creme .cta b{color:var(--navy)}
+</style></head><body>
+<div id="post">
+  <div class="photo" id="photo"></div>
+  <div class="tag"><i></i><span id="tag"></span></div>
+  <div class="panel"><h1 id="title"></h1></div>
+  <div class="foot">
+    <div class="cta"><span></span>Lire l'article · <b>lien dans la bio</b></div>
+    <img class="logo" src="logos/logo-inverse.svg" alt="Vingt55">
+  </div>
+  <div class="bar"></div>
+</div>
+<script>
+// Contenu de la publication. rendre.js le fournit via window.POST ;
+// sans lui, la page affiche cet exemple.
+const P = window.POST || {
+  photo: "exemples/photo-exemple.jpg",
+  theme: "creme",
+  tag: "Commerce local · Drummondville",
+  title: "Près de <em>800 visiteurs</em> pour l'ouverture de la Librairie Temps Libre"
+};
+const photo = document.getElementById('photo');
+photo.style.backgroundImage = `url("${P.photo}")`;
+if (P.position) photo.style.backgroundPosition = P.position;
+if (P.theme === 'creme') {
+  document.getElementById('post').classList.add('creme');
+  document.querySelector('.logo').src = 'logos/logo-couleur.svg';
+}
+document.getElementById('tag').textContent = P.tag;
+document.getElementById('title').innerHTML = P.title;
+// Ajuste la taille du titre pour remplir l'espace sans toucher le bas (86 px max, 48 px min)
+window.READY = document.fonts.ready.then(() => {
+  const t = document.getElementById('title');
+  const limit = document.getElementById('post').getBoundingClientRect().top + 1150;
+  let fs = 86; t.style.fontSize = fs + 'px';
+  while (t.getBoundingClientRect().bottom > limit && fs > 48) { fs -= 2; t.style.fontSize = fs + 'px'; }
+});
+</script>
+</body></html>

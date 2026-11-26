@@ -1,0 +1,27 @@
+VINGT55 — IDENTITÉ VISUELLE
+Communauté Vingt55 · Drummondville, Centre-du-Québec
+
+FORMATS
+- .pdf : vectoriel, pour l'impression et les graphistes (s'agrandit sans perte de qualité)
+- .svg : vectoriel, pour le web et les logiciels de design (Illustrator, Figma, Canva)
+- .png : image haute résolution, pour un usage rapide (courriel, réseaux sociaux)
+Le texte des fichiers vectoriels est converti en tracés : aucune police à installer.
+
+CONTENU
+01_Logos
+  - logo-communaute-couleur : pour fonds clairs (marine + rouge)
+  - logo-communaute-inverse : pour fonds marine (crème + rouge)
+  - logo-media-couleur      : signature « MÉDIA », pour fonds clairs
+  - logo-media-inverse      : signature « MÉDIA », pour fonds marine
+  Les logos sont sur fond transparent.
+02_Bannieres_Facebook  : version A (marine) et B (claire) — format 1640 × 607 px
+03_Photos_de_profil    : version A (marine) et B (claire) — format carré, Facebook le met en rond
+04_Affiche             : présentation Avant / Après
+
+COULEURS
+  Marine  #131A2E   (RVB 19, 26, 46)
+  Rouge   #E5303A   (RVB 229, 48, 58)
+  Crème   #F7F5F1   (RVB 247, 245, 241)
+
+POLICE
+  Outfit (gratuite, Google Fonts) — Gras, Semi-gras, Régulier
