@@ -1,4 +1,4 @@
-# Cahier passe-temps de janvier (2e cycle) : plan à valider
+# Cahier passe-temps de janvier (2e cycle) : plan validé (sans corrigé)
 
 ## Le besoin
 - **Public :** élèves du 2e cycle (3e et 4e année).
@@ -45,7 +45,7 @@ Consigne : *Lis les mots de l'hiver à voix haute, puis colorie les dessins.*
 - le glaçon
 - l'ours polaire
 - le phoque
-- le harfang des neiges
+- le harfang (étiquette courte, faute de place)
 - le renard arctique
 - le caribou
 - le morse
@@ -168,8 +168,8 @@ Consigne : *Trouve la règle de chaque suite, puis résous les problèmes.*
 - d) 11, 22, 33, ____, ____, 66 → 44, 55 (+11)
 
 **Les problèmes de l'hiver**
-1. Dans la cour d'école, 7 amis construisent chacun 3 bonshommes de neige. Combien de bonshommes de neige ont-ils construits ? → **21**
-2. Un troupeau de 48 caribous traverse la rivière. Ensuite, 26 autres caribous les rejoignent. Combien de caribous y a-t-il en tout ? → **74**
+1. Sept amis construisent chacun 3 bonshommes de neige. Combien de bonshommes de neige y a-t-il en tout ? → **21**
+2. Un troupeau de 48 caribous traverse la rivière, puis 26 autres le rejoignent. Combien y a-t-il de caribous en tout ? → **74**
 3. Zoé range ses 24 mitaines par paires. Combien de paires obtient-elle ? → **12**
 
 Illustration : un caribou au trait (à la place du renne).
@@ -179,10 +179,10 @@ Illustration : un caribou au trait (à la place du renne).
 
 ```
 Grille            Solution
-F . . O           F T M O
-. . F .           M O F T
-. . . M           T F O M
-O . T F           O M T F
+F . M .           F T M O
+. O . T           M O F T
+T . O .           T F O M
+. M . F           O M T F
 ```
 
 **Sudoku des nombres (6 × 6)**, rectangles de 2 × 3 :
@@ -212,4 +212,5 @@ Mandala avec des animaux nordiques (ours polaire, phoque, harfang, renard arctiq
 - On évite le pingouin et le manchot : le manchot vit dans l'hémisphère Sud et le nom « pingouin » est souvent confondu avec lui.
 - Les problèmes sont des situations inventées. Ils ne donnent aucun fait scientifique sur les animaux.
 - Les illustrations au trait seront générées dans Canva. Les icônes de flocons du modèle seront réutilisées.
-- Corrigé : le modèle de Noël n'en a pas. On peut ajouter une page de corrigé à la fin, si vous le souhaitez.
+- Pas de corrigé (choix de la créatrice). Les solutions restent dans ce plan.
+- La grille du sudoku en images garde les cases du modèle ; la solution est la même, et l'unicité a été revérifiée.
