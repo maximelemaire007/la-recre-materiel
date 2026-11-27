@@ -6,7 +6,7 @@
 - **Forme :** entretien individuel. **L'élève garde le livre près de lui** et peut le feuilleter pour répondre : chaque question renvoie au livre (une page, une illustration, le plan de bataille, la lettre au père Noël).
 - **Déroulement :** L'enseignant pose les questions oralement **après la lecture** et note les réponses de l'élève. Il n'y a pas de questions avant la lecture.
 - **Contenu :** des questions de compréhension, des questions d'interprétation, une question de réaction et une question d'appréciation, une pondération et une grille d'évaluation (les 4 critères du MEQ).
-- **Album :** *Maman, j'ai raté l'avion!*, album jeunesse illustré tiré du film Les questions et les pistes suivent le texte de l'album, vérifié sur les photos des pages reçues (de « Après des heures devant la télé » jusqu'à « Joyeux Noël! »). L'éditeur n'est pas inscrit sur la fiche.
+- **Album :** *Maman, j'ai raté l'avion!*, album jeunesse illustré tiré du film Les questions et les pistes suivent le texte de l'album, vérifié sur les photos des pages reçues (de « Trois jours avant Noël » jusqu'à « Joyeux Noël! »). L'éditeur n'est pas inscrit sur la fiche.
 - **Format :** Lettre. Création originale au style La Récré (bandeau noir, tableau à bandes gris pâle, pied de page « Lecture - 2e cycle - Boutique La Récré », logo en bas à droite). Les deux exemples reçus servent seulement d'inspiration pour la structure ; on ne reprend ni leur mise en page ni leurs textes.
 
 ## Les pages (3 pages)
@@ -68,13 +68,13 @@
 
 ## Pistes de réponses (page 3)
 1. Kevin (Kevin McCallister).
-2. Sa famille est partie en vacances sans lui : elle l'a oublié à la maison (1 point pour le départ, 1 point pour l'oubli).
+2. La famille McCallister part en vacances pour Noël, mais sans lui : le matin, Kevin se réveille et « sa famille a disparu » (1 point pour le départ en vacances, 1 point pour « sans lui »).
 3. De son voisin, le vieux Marley (M. Marley).
 4. Deux cambrioleurs, Marvin et Harry, veulent revenir le soir pour tout voler dans sa maison (1 point pour les cambrioleurs, 1 point pour le vol).
 5. Deux pièges parmi : les petites voitures éparpillées, le goudron sur l'escalier de la cave, le tas de plumes et le ventilateur, les boules de Noël cassées sous les fenêtres, les marches de l'entrée arrosées (glace), le fil et les boîtes de peinture, la colle, l'issue jusqu'à sa cabane (1 point par piège).
-6. Situation initiale : Kevin est seul à la maison; il en profite (télé, luge dans l'escalier, after-shave de son père). Élément déclencheur : la nuit, il entend des cambrioleurs qui surveillent sa maison. Péripéties : il décide d'être courageux, fait les courses, décore le sapin, parle avec M. Marley à l'église, prépare un plan de bataille et des pièges; les voleurs tombent dans les pièges et le poursuivent chez son voisin. Dénouement : M. Marley frappe les voleurs avec sa pelle et appelle la police. Situation finale : le matin de Noël, sa mère rentre, puis toute la famille; ils sont réunis.
+6. Situation initiale : trois jours avant Noël, la famille fait ses valises; Kevin fait des bêtises et sa mère l'envoie au lit. Élément déclencheur : le lendemain, sa famille a disparu : Kevin est seul à la maison. Péripéties : il en profite (lits, glace géante, luge), entend des cambrioleurs, décide d'être courageux, fait les courses, décore le sapin, parle avec M. Marley à l'église, prépare un plan de bataille et des pièges; les voleurs tombent dans les pièges et le poursuivent chez son voisin. Dénouement : M. Marley frappe les voleurs avec sa pelle et appelle la police. Situation finale : le matin de Noël, sa mère rentre, puis toute la famille; ils sont réunis.
 7. Pistes : il est courageux (« je dois être courageux! »); il se débrouille pour les tâches (épicerie, lavage, sapin); il prépare un plan de bataille plein de pièges; il connaît bien sa maison. Un indice du livre est attendu.
-8. Pistes : au début, il avait souhaité que sa famille disparaisse (« mais il ne le pensait pas vraiment »); ensuite, elle lui manque (« Vous me manquez… J'aimerais que vous soyez là. »); il demande au père Noël de lui rapporter sa famille plutôt que des cadeaux; à la fin, il est heureux de la retrouver.
+8. Pistes : au début, il est puni et souhaite que sa famille disparaisse (« mais il ne le pensait pas vraiment »); il est content d'avoir la maison pour lui tout seul; ensuite, elle lui manque (« Vous me manquez… J'aimerais que vous soyez là. »); il demande au père Noël de lui rapporter sa famille plutôt que des cadeaux; à la fin, il est heureux de la retrouver.
 9. Réponse personnelle (voir la grille d'observation).
 10. Réponse personnelle (voir la grille d'observation).
 
