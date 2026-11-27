@@ -4,16 +4,17 @@ Dossier Canva : https://www.canva.com/folder/FAHcJTBsXIA
 
 | Document | Lien |
 | --- | --- |
-| Entretien (4 pages : comprendre, interpréter, réagir, apprécier, grille d'évaluation) | https://www.canva.com/design/DAHcJXy5fRo/edit |
-| Pistes de réponses (1 page) | https://www.canva.com/design/DAHcJVZ974M/edit |
+| Entretien (3 pages, 9 questions, grille sur 20) | https://www.canva.com/design/DAHcJXy5fRo/edit |
+| Corrigé (2 pages, réponses en rouge) | https://www.canva.com/design/DAHcJasoTwk/edit |
+| Aperçu boutique (2 images 1080 × 1350) | https://www.canva.com/design/DAHcJlLGLaE/edit (images : `apercus/`) |
 
 Notes :
-- L'entretien est une copie du questionnaire « L'hiver au Québec » (DAHcH0vujBo); les pistes de réponses sont une copie de la page 3 de l'entretien. L'original n'a pas été modifié.
-- L'élève garde le livre pendant l'entretien : chaque question renvoie au livre (illustration, page, plan de bataille, lettre au père Noël). La consigne est écrite sous « Critère 1 ».
-- La consigne en italique de la page 1 a été ajoutée par l'API : elle utilise la police par défaut de Canva, un peu différente de celle des questions.
-- Page 4 : grille d'évaluation sur 26 (14 + 6 + 3 + 3), grille d'observation pour les questions 7 à 10 (3 points chacune), commentaires de l'enseignant et signature du parent.
-- Dans la police cursive de la grille, la virgule s'affiche mal : le titre y est écrit « Maman j'ai raté l'avion! ».
+- La version finale de l'entretien et le corrigé ont été retouchés par la créatrice dans Canva (9 questions, total sur 20, couverture de l'album en page 1). Ils remplacent la version à 10 questions décrite dans `plan.md` et l'ancienne page de pistes de réponses.
+- L'entretien est une copie du questionnaire « L'hiver au Québec » (DAHcH0vujBo), qui n'a pas été modifié.
+- Aperçu boutique : copie de l'aperçu « L'hiver au Québec » (DAHcJBr6OZM, non modifié), même disposition ; seules les pages, le titre, les étiquettes et l'illustration changent. L'illustration (maison décorée sous la neige) est une aquarelle générée dans Canva, fond retiré. La couverture de l'album n'est pas reprise dans l'aperçu.
+- Dans la police cursive, la virgule s'affiche mal : le sous-titre de l'aperçu et de la grille est « Maman j'ai raté l'avion! ».
 
 Fichiers :
-- `entretien-maman-rate-avion.pdf` (4 pages, Lettre)
-- `pistes-reponses-maman-rate-avion.pdf` (1 page, Lettre)
+- `entretien-maman-rate-avion.pdf` (3 pages, Lettre)
+- `corrige-maman-rate-avion.pdf` (2 pages, Lettre)
+- `apercus/apercu-boutique-1.png` et `apercus/apercu-boutique-2.png`

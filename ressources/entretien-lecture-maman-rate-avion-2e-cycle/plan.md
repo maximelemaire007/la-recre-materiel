@@ -1,5 +1,7 @@
 # Entretien de lecture : « Maman, j'ai raté l'avion! » (2e cycle) — plan
 
+> **Version finale :** la créatrice a retouché l'entretien dans Canva (9 questions, total sur 20) et fait le corrigé. Les PDF et `canva.md` font foi ; le plan ci-dessous est la version de travail.
+
 ## Le besoin
 - **Public :** 2e cycle du primaire (3e et 4e année).
 - **Matière :** Français, compétence *Lire des textes variés*.
