@@ -31,5 +31,5 @@ Dessins au trait générés dans Canva (couverture, 12 icônes, ours à la panca
 - `cahier-passe-temps-janvier-2e-cycle.pdf` (11 pages, Lettre).
 
 ## Aperçu boutique
-- Copie de l'aperçu « Mission glaçon » (l'original n'a pas été modifié), dans le dossier du projet.
+- Parti d'une copie de l'aperçu « Mission glaçon » (l'original n'a pas été modifié), puis nouvelle disposition : grande couverture à gauche, grille de 4 pages à droite, sudokus et mandala inclinés en bas.
 - Image : `apercus/apercu-boutique.png` (1080 × 1350).
