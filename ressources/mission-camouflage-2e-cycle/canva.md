@@ -6,6 +6,7 @@ Dossier Canva « Mission camouflage – 2e cycle » : https://www.canva.com/fold
 |---|---|---|
 | Mission camouflage – Carnet de l'élève (2e cycle) | 9 | https://www.canva.com/design/DAHcEsSrJZM/edit |
 | Mission camouflage – Guide de l'enseignant (2e cycle) | 4 | https://www.canva.com/design/DAHcElXDxJc/edit |
+| Aperçu boutique – Mission camouflage (1080 × 1350) | 1 | https://www.canva.com/design/DAHcHdJbXWY/edit |
 
 Faits à partir de copies de Mission banquise (carnet DAHcCIdZ4v0, guide DAHcCP9qJyM). Les originaux n'ont pas été modifiés.
 
@@ -40,3 +41,8 @@ Note : les textes de l'annexe ont été ajoutés avec la police par défaut de C
 ## Fichiers
 - `carnet-mission-camouflage.pdf` (9 pages, Lettre).
 - `guide-enseignant-mission-camouflage.pdf` (4 pages, Lettre).
+
+## Aperçu boutique
+- Copie de l'aperçu « Mission banquise » (l'original n'a pas été modifié), dans le dossier du projet.
+- Pages du carnet et du guide de Mission camouflage, phoque remplacé par le lièvre d'Amérique blanc (fond retiré).
+- Image : `apercus/apercu-boutique.png` (1080 × 1350).
