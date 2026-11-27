@@ -3,7 +3,8 @@
 ## Le besoin
 - **Public :** 2e cycle du primaire (3e et 4e année).
 - **Matière :** Français, compétence *Lire des textes variés*.
-- **Forme :** entretien individuel. L'enseignant pose les questions oralement **après la lecture** et note les réponses de l'élève. Il n'y a pas de questions avant la lecture.
+- **Forme :** entretien individuel. **L'élève garde le livre près de lui** et peut le feuilleter pour répondre : chaque question renvoie au livre (une page, une illustration, le plan de bataille, la lettre au père Noël).
+- **Déroulement :** L'enseignant pose les questions oralement **après la lecture** et note les réponses de l'élève. Il n'y a pas de questions avant la lecture.
 - **Contenu :** des questions de compréhension, des questions d'interprétation, une question de réaction et une question d'appréciation, une pondération et une grille d'évaluation (les 4 critères du MEQ).
 - **Album :** *Maman, j'ai raté l'avion!*, album jeunesse illustré tiré du film Les questions et les pistes suivent le texte de l'album, vérifié sur les photos des pages reçues (de « Après des heures devant la télé » jusqu'à « Joyeux Noël! »). L'éditeur n'est pas inscrit sur la fiche.
 - **Format :** Lettre. Création originale au style La Récré (bandeau noir, tableau à bandes gris pâle, pied de page « Lecture - 2e cycle - Boutique La Récré », logo en bas à droite). Les deux exemples reçus servent seulement d'inspiration pour la structure ; on ne reprend ni leur mise en page ni leurs textes.
@@ -18,12 +19,12 @@
 ## Les questions (après la lecture)
 
 ### Critère 1 : Comprendre (14 points)
-1. **Qui** est le personnage principal de l'histoire? *(1 point)*
+1. **Qui** est le personnage principal? Montre-le-moi sur une illustration. *(1 point)*
 2. **Pourquoi** Kevin se retrouve-t-il seul à la maison? *(2 points)*
-3. **De qui** Kevin a-t-il surtout peur au début de l'histoire? *(1 point)*
+3. **De qui** Kevin a-t-il surtout peur au début? Montre-moi la page qui le dit. *(1 point)*
 4. **Quel** problème Kevin doit-il affronter pendant qu'il est seul? *(2 points)*
-5. **Nomme** deux pièges que Kevin prépare pour protéger sa maison. *(2 points)*
-6. **Raconte-moi** l'histoire dans tes mots. *(6 points)*
+5. **Retourne au plan de bataille de Kevin.** Nomme deux pièges qu'il prépare. *(2 points)*
+6. **Raconte-moi** l'histoire dans tes mots. Tu peux feuilleter le livre pour t'aider. *(6 points)*
    L'enseignant coche les éléments nommés par l'élève :
    - ☐ Situation initiale *(1)*
    - ☐ Élément déclencheur *(1)*
@@ -32,14 +33,14 @@
    - ☐ Situation finale *(1)*
 
 ### Critère 2 : Interpréter (6 points)
-7. **Pourquoi**, selon toi, Kevin réussit-il à se débrouiller seul? Appuie ta réponse sur un indice du livre. *(3 points)*
-8. **Comment** les sentiments de Kevin envers sa famille changent-ils entre le début et la fin de l'histoire? *(3 points)*
+7. Kevin dit : « Je dois être courageux! » **Pourquoi**, selon toi, réussit-il à se débrouiller seul? Montre-moi un indice dans le livre. *(3 points)*
+8. **Relis la lettre de Kevin au père Noël.** Comment ses sentiments envers sa famille ont-ils changé depuis le début de l'histoire? *(3 points)*
 
 ### Critère 3 : Réagir (3 points)
-9. **Si tu étais seul à la maison comme Kevin, qu'est-ce que tu ferais?** Explique pourquoi. *(3 points)*
+9. **Retrouve la page où Kevin entend les cambrioleurs près de la fenêtre.** Si tu étais à sa place, comment te sentirais-tu? Qu'est-ce que tu ferais? Explique pourquoi. *(3 points)*
 
 ### Critère 4 : Apprécier (3 points)
-10. **As-tu aimé ce livre?** Explique ta réponse à l'aide d'un élément du livre (un personnage, les illustrations, la fin, un passage drôle, etc.). *(3 points)*
+10. **As-tu aimé ce livre?** Montre-moi ta page préférée et explique pourquoi tu l'aimes (le texte, l'illustration, un personnage, un passage drôle). *(3 points)*
 
 ---
 
@@ -59,7 +60,7 @@
 |---|---|
 | Donne une réponse claire (une action, une opinion) | 1 |
 | Justifie sa réponse avec un « parce que » | 1 |
-| Appuie sa réponse sur un indice du livre (interprétation) ou fait un lien précis avec le livre ou sa vie (réaction, appréciation) | 1 |
+| S'appuie sur le livre : montre une page, une illustration ou un passage (et, pour les questions 9 et 10, fait aussi un lien avec sa vie) | 1 |
 
 **Commentaires de l'enseignant :** quelques lignes. Une case pour la signature du parent, comme dans les questionnaires de la boutique.
 
