@@ -7,6 +7,7 @@ Dossier Canva : https://www.canva.com/folder/FAHcIKkzJKo
 | Texte informatif (4 pages, sources en page 4) | https://www.canva.com/design/DAHcH7r0spw/edit |
 | Questionnaire (4 pages, grille sur 26) | https://www.canva.com/design/DAHcH0vujBo/edit |
 | Corrigé (4 pages, réponses en rouge) | https://www.canva.com/design/DAHcH7lBJFs/edit |
+| Aperçu boutique (2 images 1080 × 1350) | https://www.canva.com/design/DAHcJHuzawc/edit (images : `apercus/`) |
 
 Notes :
 - Ces trois designs sont des copies du texte, du questionnaire et du corrigé des Canadiens de Montréal (DAHb9nv_bZg, DAHb9lYaFSg, DAHb9uQ2Gdo). Les originaux n'ont pas été modifiés.
@@ -22,3 +23,8 @@ Fichiers :
 - `texte-activites-hiver.pdf` (4 pages, Lettre)
 - `questionnaire-activites-hiver.pdf` (4 pages, Lettre)
 - `corrige-activites-hiver.pdf` (4 pages, Lettre)
+
+Aperçu boutique : copie de l'aperçu des Canadiens de Montréal (l'original n'a pas été modifié), avec une nouvelle disposition.
+- Image 1 : grande page 1 du texte à gauche, page 2 inclinée à droite, page 1 du corrigé en bas à droite, traîneau à chiens en haut à gauche, vagues bleu glacier.
+- Image 2 : pages 1, 3 et 4 du texte alignées en haut, les 4 critères sur une ligne, les 4 pages du questionnaire en rangée en bas.
+- La pastille « 3e cycle » garde le fond rouge du modèle (effet de texte que l'outil ne peut pas modifier) ; on peut la changer à la main dans Canva.
