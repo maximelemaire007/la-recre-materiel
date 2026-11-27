@@ -71,6 +71,6 @@
 8. Réponse personnelle (voir la grille d'observation).
 
 ## À valider
-- **L'édition de l'album** que tu utilises (éditeur, année, nom de l'auteur ou de l'adaptateur), pour l'inscrire sur la fiche et vérifier les détails.
-- **Les réponses 3 à 6** suivent l'histoire telle qu'on la connaît. Si l'album change un détail (lieu du voyage, pièges, fin), dis-le-moi et j'ajuste.
+- **L'édition de l'album** que vous utilisez (éditeur, année, nom de l'auteur ou de l'adaptateur), pour l'inscrire sur la fiche et vérifier les détails.
+- **Les réponses 3 à 6** suivent l'histoire telle qu'on la connaît. Si l'album change un détail (lieu du voyage, pièges, fin), dites-le-moi et j'ajusterai.
 - **Le nombre de questions de compréhension** (6, dont le récit) et le total sur 20.
