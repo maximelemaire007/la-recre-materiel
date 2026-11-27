@@ -1,11 +1,11 @@
-# Entretien de lecture : « Maman, j'ai raté l'avion! » (2e cycle) — plan à valider
+# Entretien de lecture : « Maman, j'ai raté l'avion! » (2e cycle) — plan
 
 ## Le besoin
 - **Public :** 2e cycle du primaire (3e et 4e année).
 - **Matière :** Français, compétence *Lire des textes variés*.
 - **Forme :** entretien individuel. L'enseignant pose les questions oralement **après la lecture** et note les réponses de l'élève. Il n'y a pas de questions avant la lecture.
 - **Contenu :** des questions de compréhension, des questions d'interprétation, une question de réaction et une question d'appréciation, une pondération et une grille d'évaluation (les 4 critères du MEQ).
-- **Album :** *Maman, j'ai raté l'avion!*, album jeunesse illustré tiré du film (illustrations de Kim Smith). **Édition à confirmer** : titre exact, éditeur, auteur ou adaptateur à inscrire sur la fiche.
+- **Album :** *Maman, j'ai raté l'avion!*, album jeunesse illustré tiré du film Les questions et les pistes suivent le texte de l'album, vérifié sur les photos des pages reçues (de « Après des heures devant la télé » jusqu'à « Joyeux Noël! »). L'éditeur n'est pas inscrit sur la fiche.
 - **Format :** Lettre. Création originale au style La Récré (bandeau noir, tableau à bandes gris pâle, pied de page « Lecture - 2e cycle - Boutique La Récré », logo en bas à droite). Les deux exemples reçus servent seulement d'inspiration pour la structure ; on ne reprend ni leur mise en page ni leurs textes.
 
 ## Les pages (3 pages)
@@ -20,9 +20,9 @@
 ### Critère 1 : Comprendre (14 points)
 1. **Qui** est le personnage principal de l'histoire? *(1 point)*
 2. **Pourquoi** Kevin se retrouve-t-il seul à la maison? *(2 points)*
-3. **Où** sa famille part-elle en voyage? *(1 point)*
+3. **De qui** Kevin a-t-il surtout peur au début de l'histoire? *(1 point)*
 4. **Quel** problème Kevin doit-il affronter pendant qu'il est seul? *(2 points)*
-5. **Nomme** deux moyens que Kevin utilise pour protéger sa maison. *(2 points)*
+5. **Nomme** deux pièges que Kevin prépare pour protéger sa maison. *(2 points)*
 6. **Raconte-moi** l'histoire dans tes mots. *(6 points)*
    L'enseignant coche les éléments nommés par l'élève :
    - ☐ Situation initiale *(1)*
@@ -66,19 +66,18 @@
 ---
 
 ## Pistes de réponses (page 3)
-1. Kevin (le garçon de la famille).
-2. Sa famille part en voyage et l'oublie à la maison (1 point pour le départ, 1 point pour l'oubli).
-3. À Paris.
-4. Deux cambrioleurs veulent entrer dans la maison.
-5. Accepter tout piège ou tout moyen présent dans l'album (ex. : des objets glissants sur les marches, des jouets au sol, des pièges aux portes).
-6. Situation initiale : la famille se prépare à partir en voyage pour les Fêtes. Élément déclencheur : Kevin est oublié à la maison. Péripéties : il s'organise seul, puis il protège la maison contre les cambrioleurs. Dénouement : les cambrioleurs sont arrêtés. Situation finale : sa mère revient et la famille est réunie.
-7. Pistes : il est débrouillard et courageux; il prépare un plan et des pièges; il connaît bien sa maison. Un indice du livre est attendu.
-8. Pistes : au début, il est fâché contre sa famille et souhaite qu'elle disparaisse; il est d'abord content d'être seul; ensuite, il s'ennuie d'elle; à la fin, il est heureux de retrouver sa mère et sa famille.
+1. Kevin (Kevin McCallister).
+2. Sa famille est partie en vacances sans lui : elle l'a oublié à la maison (1 point pour le départ, 1 point pour l'oubli).
+3. De son voisin, le vieux Marley (M. Marley).
+4. Deux cambrioleurs, Marvin et Harry, veulent revenir le soir pour tout voler dans sa maison (1 point pour les cambrioleurs, 1 point pour le vol).
+5. Deux pièges parmi : les petites voitures éparpillées, le goudron sur l'escalier de la cave, le tas de plumes et le ventilateur, les boules de Noël cassées sous les fenêtres, les marches de l'entrée arrosées (glace), le fil et les boîtes de peinture, la colle, l'issue jusqu'à sa cabane (1 point par piège).
+6. Situation initiale : Kevin est seul à la maison; il en profite (télé, luge dans l'escalier, after-shave de son père). Élément déclencheur : la nuit, il entend des cambrioleurs qui surveillent sa maison. Péripéties : il décide d'être courageux, fait les courses, décore le sapin, parle avec M. Marley à l'église, prépare un plan de bataille et des pièges; les voleurs tombent dans les pièges et le poursuivent chez son voisin. Dénouement : M. Marley frappe les voleurs avec sa pelle et appelle la police. Situation finale : le matin de Noël, sa mère rentre, puis toute la famille; ils sont réunis.
+7. Pistes : il est courageux (« je dois être courageux! »); il se débrouille pour les tâches (épicerie, lavage, sapin); il prépare un plan de bataille plein de pièges; il connaît bien sa maison. Un indice du livre est attendu.
+8. Pistes : au début, il avait souhaité que sa famille disparaisse (« mais il ne le pensait pas vraiment »); ensuite, elle lui manque (« Vous me manquez… J'aimerais que vous soyez là. »); il demande au père Noël de lui rapporter sa famille plutôt que des cadeaux; à la fin, il est heureux de la retrouver.
 9. Réponse personnelle (voir la grille d'observation).
 10. Réponse personnelle (voir la grille d'observation).
 
-## À valider
-- **L'édition de l'album** que vous utilisez (éditeur, année, nom de l'auteur ou de l'adaptateur), pour l'inscrire sur la fiche et vérifier les détails.
-- **Les réponses 3 à 6** suivent l'histoire telle qu'on la connaît. Si l'album change un détail (lieu du voyage, pièges, fin), dites-le-moi et j'ajusterai.
-- **Le nombre de questions** : 6 en compréhension (dont le récit), 2 en interprétation, 1 en réaction, 1 en appréciation, total sur 26 comme les autres questionnaires de la boutique.
-- **La piste de la question 8** suppose que Kevin est fâché contre sa famille au début, comme dans le film : à confirmer avec l'album.
+## Validé
+- Le texte de l'album a été vérifié sur les photos des pages (2026-11-27). Le voyage à Paris n'apparaît pas dans les pages reçues : la question 3 porte donc sur M. Marley.
+- La question 8 est confirmée par l'album : « Kevin a souhaité que sa famille disparaisse… mais il ne le pensait pas vraiment. »
+- Total sur 26, comme les autres questionnaires de la boutique.
