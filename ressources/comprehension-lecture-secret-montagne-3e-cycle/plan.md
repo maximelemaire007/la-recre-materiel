@@ -66,7 +66,7 @@ Félix grimaçait de douleur en tenant sa cheville. Il avait perdu l'équilibre 
 11. Si tu avais été à la place de Juliette, aurais-tu pris la même décision en abandonnant tes chances de gagner pour aider ton ami? Explique ta réponse.
 
 **Critère 4 : Apprécier (/3)**
-12. As-tu aimé cette histoire? Justifie ton appréciation en faisant référence à un élément précis du récit (les personnages, les événements, le suspense ou la fin).
+12. Recommanderais-tu ce texte à un élève de ton âge? Explique en détail ton choix à l'aide d'un ou de plusieurs éléments littéraires.
 
 ## Pistes de réponses (pour le corrigé)
 1. À la station de ski du Val-des-Neiges.
