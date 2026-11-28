@@ -1,4 +1,4 @@
-# Compréhension de lecture : Le secret de la montagne (texte narratif, hiver, 3e cycle) — plan à valider
+# Compréhension de lecture : La plus belle victoire (texte narratif, hiver, 3e cycle) — plan validé
 
 ## Le besoin
 - **Public :** 3e cycle (5e et 6e année). Français, compétence *Lire des textes variés*.
@@ -15,7 +15,7 @@
 
 Version raccourcie à environ 650 mots (demande de la créatrice). Le texte de la créatrice est resserré, sans changer l'histoire; les descriptions de Juliette et Félix y sont intégrées.
 
-# LE SECRET DE LA MONTAGNE
+# LA PLUS BELLE VICTOIRE
 
 ① La neige avait recouvert les montagnes depuis plusieurs jours et les conditions étaient parfaites pour skier. Ce samedi matin, des dizaines de jeunes s'étaient rassemblés à la station de ski du Val-des-Neiges pour participer à la grande compétition annuelle. Parmi eux se trouvait Juliette, une skieuse de onze ans qui s'entraînait depuis tout l'automne pour cette journée. Petite et athlétique, elle avait attaché ses cheveux bruns en une queue de cheval bien serrée. Ses yeux noisette fixaient déjà le sommet de la piste.
 
@@ -81,7 +81,6 @@ Félix grimaçait de douleur en tenant sa cheville. Il avait perdu l'équilibre 
 10. Pistes : attentionnée, généreuse ou courageuse : elle renonce à la victoire pour aider son ami, reste avec lui et le rassure.
 11 et 12. Réponses personnelles (réponse claire, justification, lien avec le texte ou sa vie).
 
-## À valider
-- Le texte raccourci (environ 650 mots).
-- Le titre « Le secret de la montagne » : l'histoire ne contient pas de secret ni de mystère. On peut le garder ou choisir un autre titre (ex. : « La plus belle victoire »).
-- Le choix des 12 questions et le barème sur 26.
+## Validé (2026-11-28)
+- Titre : « La plus belle victoire » (au lieu de « Le secret de la montagne »).
+- Texte d'environ 650 mots, 12 questions, total sur 26.
